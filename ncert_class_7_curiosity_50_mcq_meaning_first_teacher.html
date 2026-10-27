@@ -593,826 +593,807 @@
         // ALL 50 EXPLICIT NCERT CLASS 7 "CURIOSITY" QUESTIONS (10 PER LESSON)
         // ============================================================================
         const QUESTIONS = [
-            // ------------------------------------------------------------------------
-            // LESSON 2: EXPLORING SUBSTANCES: ACIDIC, BASIC, AND NEUTRAL (Q1 - Q10)
-            // ------------------------------------------------------------------------
-            {
-                id: 1,
-                lesson: 2,
-                topic: "Litmus & Lichens",
-                quickDiagnostic: true,
-                question: "Litmus, one of the most widely used natural acid-base indicators in science laboratories, is extracted from which living organism?",
-                options: [
-                    "Lichens (a symbiotic association of algae and fungi)",
-                    "Petals of the China rose (Hibiscus) flower",
-                    "Roots of the turmeric (Curcuma longa) plant",
-                    "Leaves of the neem tree"
-                ],
-                correct: 0,
-                explanation: "Natural litmus is extracted from Lichens—fascinating organisms where an alga and a fungus live together in partnership. In distilled (neutral) water, litmus extract has a mauve (purple) tint, and it is absorbed onto paper strips to make Blue and Red litmus papers.",
-                analogy: "Think of Lichens as nature's original chemistry partners—living on tree bark and rocks, brewing the purple dye that becomes our lab's acid-base traffic light!"
-            },
-            {
-                id: 2,
-                lesson: 2,
-                topic: "Litmus Colour Change",
-                quickDiagnostic: false,
-                question: "Ananya dips a strip of blue litmus paper and a strip of red litmus paper into freshly squeezed amla (Indian gooseberry) juice. What observation will she make?",
-                options: [
-                    "Blue litmus turns red, while red litmus remains red",
-                    "Red litmus turns blue, while blue litmus remains blue",
-                    "Both blue and red litmus papers turn green",
-                    "Neither blue nor red litmus paper shows any colour change"
-                ],
-                correct: 0,
-                explanation: "Amla juice tastes sour because it is rich in acids (ascorbic and citric acid). Acids turn Blue litmus paper Red, and have no colour-changing effect on Red litmus paper (which stays red).",
-                analogy: "Remember 'A-B-R': Acid turns Blue to Red (like a red danger sign warning you that the substance is sour/acidic)!"
-            },
-            {
-                id: 3,
-                lesson: 2,
-                topic: "Turmeric Indicator",
-                quickDiagnostic: true,
-                question: "Rohan accidentally drops yellow turmeric curry on his white cotton shirt. When he rubs soap water on the stain, it turns bright red. If he now squeezes lemon juice over the red spot, what will happen and why?",
-                options: [
-                    "It turns blue because lemon juice is a strong base",
-                    "It turns green because turmeric reacts with citric acid to form chlorophyll",
-                    "It stays bright red because turmeric is a permanent dye in acids",
-                    "It turns back to yellow because acidic lemon juice neutralizes the basic soap"
-                ],
-                correct: 3,
-                explanation: "Turmeric is a natural indicator that is yellow in acidic and neutral mediums, and turns deep red in basic mediums (like soap water). Adding lemon juice (citric acid) neutralizes the basic soap and makes the spot acidic/neutral again, restoring the yellow colour!",
-                analogy: "Turmeric only 'blushes' bright RED when it meets a Base (soap). Lemon juice cancels out the soap's basic power, calming turmeric back to yellow!"
-            },
-            {
-                id: 4,
-                lesson: 2,
-                topic: "Red Rose / China Rose Indicator",
-                quickDiagnostic: false,
-                question: "A student prepares a natural indicator by soaking red rose (or China rose) petals in warm water. What colours will this extract produce when added to (i) Vinegar and (ii) Baking soda solution respectively?",
-                options: [
-                    "(i) Green in vinegar, and (ii) Deep Red in baking soda solution",
-                    "(i) Yellow in vinegar, and (ii) Blue in baking soda solution",
-                    "(i) Deep Red / Magenta in vinegar, and (ii) Green in baking soda solution",
-                    "(i) Colourless in vinegar, and (ii) Pink in baking soda solution"
-                ],
-                correct: 2,
-                explanation: "Red rose / China rose extract turns dark pink/red (magenta) in acidic solutions like vinegar (acetic acid), and turns green in basic solutions like baking soda (sodium hydrogen carbonate) or soap water.",
-                analogy: "Think of a traffic light: Acid = Red (Stop, sour/corrosive!), Base = Green (Go, soapy base!)."
-            },
-            {
-                id: 5,
-                lesson: 2,
-                topic: "Olfactory Indicators",
-                quickDiagnostic: false,
-                question: "Which of the following pairs of substances can act as 'olfactory indicators' to help a visually impaired student distinguish between an acidic solution and a basic solution by smell?",
-                options: [
-                    "Turmeric paste and red rose extract",
-                    "Finely chopped onion and vanilla essence",
-                    "Blue litmus and phenolphthalein",
-                    "Sugar solution and common salt solution"
-                ],
-                correct: 1,
-                explanation: "Olfactory indicators work by changing their odour (smell) rather than colour. Both onion and vanilla essence retain their characteristic smell in acidic mediums, but their smell disappears (is destroyed) when a basic solution like sodium hydroxide or soap water is added.",
-                analogy: "Olfactory = Nose! Bases act like an 'odour eraser' for onion and vanilla, while acids let their smell stay strong."
-            },
-            {
-                id: 6,
-                lesson: 2,
-                topic: "Natural Acids in Food",
-                quickDiagnostic: false,
-                question: "Match the natural edible items with the primary acid present in them: (1) Curd, (2) Tamarind, (3) Vinegar, (4) Lemon. Which option gives the correct sequence?",
-                options: [
-                    "(1) Lactic acid, (2) Tartaric acid, (3) Acetic acid, (4) Citric acid",
-                    "(1) Citric acid, (2) Lactic acid, (3) Tartaric acid, (4) Acetic acid",
-                    "(1) Tartaric acid, (2) Acetic acid, (3) Lactic acid, (4) Formic acid",
-                    "(1) Acetic acid, (2) Citric acid, (3) Formic acid, (4) Lactic acid"
-                ],
-                correct: 0,
-                explanation: "Friendly bacteria (Lactobacillus) convert milk sugar into Lactic acid in curd; Tamarind and unripe grapes contain Tartaric acid; Vinegar is dilute Acetic acid; and citrus fruits like Lemon and Orange contain Citric acid.",
-                analogy: "Lacto = Milk/Curd (Lactic); Citrus = Lemon (Citric); Tart/Tangy chutney = Tamarind (Tartaric)!"
-            },
-            {
-                id: 7,
-                lesson: 2,
-                topic: "Neutralization in Daily Life",
-                quickDiagnostic: true,
-                question: "When a red ant bites your hand, it causes a sharp burning pain. Why does rubbing moist baking soda or calamine solution on the bite give immediate relief?",
-                options: [
-                    "The ant injects a strong base, which is neutralized by acidic baking soda",
-                    "Baking soda cools the skin by absorbing oxygen from the air",
-                    "Calamine solution is a strong acid that kills the ant's venom",
-                    "The ant injects acidic formic acid, which is neutralized by mild bases like baking soda or calamine"
-                ],
-                correct: 3,
-                explanation: "An ant sting injects Formic acid (methanoic acid) into the skin, causing burning and inflammation. Moist baking soda (sodium hydrogen carbonate) or calamine lotion (containing zinc carbonate) are mild bases that neutralize the acid without harming your skin.",
-                analogy: "If an ant attacks you with +10 Acid fire, you calm it down with -10 mild Base ice (baking soda) to reach 0 (Neutral)!"
-            },
-            {
-                id: 8,
-                lesson: 2,
-                topic: "Soil Neutralization in Agriculture",
-                quickDiagnostic: false,
-                question: "After years of excessive chemical fertilizer use, a farmer tests his field's soil and finds that it has become overly acidic, stunting crop growth. What should he mix into the soil to restore its neutrality?",
-                options: [
-                    "Organic compost or decaying manure",
-                    "Dilute vinegar or lemon extract",
-                    "Quicklime (calcium oxide) or slaked lime (calcium hydroxide)",
-                    "Pure distilled water and common salt"
-                ],
-                correct: 2,
-                explanation: "Since the soil is too acidic, the farmer must add a basic substance to neutralize it. Quicklime (calcium oxide) and slaked lime (calcium hydroxide) are bases used to neutralize acidic soil. Conversely, if soil is too basic, organic matter/compost is added because it releases acids as it decomposes.",
-                analogy: "Acidic soil needs a Base medicine (Lime). Basic soil needs an Acid-releasing medicine (Organic Compost)!"
-            },
-            {
-                id: 9,
-                lesson: 2,
-                topic: "Neutral Substances",
-                quickDiagnostic: false,
-                question: "A student tests four transparent liquids—Window cleaner, Sugar solution, Lime water, and Vinegar—with both red and blue litmus papers. Which of these liquids will cause NO colour change in either litmus paper?",
-                options: [
-                    "Window cleaner",
-                    "Sugar solution",
-                    "Lime water",
-                    "Vinegar"
-                ],
-                correct: 1,
-                explanation: "Substances that are neither acidic nor basic are called Neutral substances, and they do not change the colour of red or blue litmus. Sugar solution, common salt solution, and pure distilled water are neutral. Window cleaner and lime water are basic, while vinegar is acidic.",
-                analogy: "Sugar is sweet, not sour (acid) or soapy-bitter (base)—it sits peacefully in the middle at Neutral!"
-            },
-            {
-                id: 10,
-                lesson: 2,
-                topic: "Factory Waste & Indigestion",
-                quickDiagnostic: false,
-                question: "Which statement accurately describes the role of neutralization in both human health (indigestion) and environmental protection (factory waste)?",
-                options: [
-                    "Antacids (like milk of magnesia) are mild bases that neutralize excess stomach acid, and basic substances are added to neutralize acidic factory waste before river discharge",
-                    "Antacids are strong acids that digest food faster, and acidic chemicals are added to factory waste to kill bacteria",
-                    "Both indigestion and factory waste are treated using neutral salt water",
-                    "Stomach indigestion is caused by excess base, so doctors prescribe lemon juice"
-                ],
-                correct: 0,
-                explanation: "Our stomach produces hydrochloric acid for digestion, but excess acid causes pain/indigestion; we take an Antacid (like Milk of Magnesia = magnesium hydroxide, a mild base) to neutralize it. Similarly, acidic factory wastes are neutralized with bases like slaked lime so they don't kill fish and aquatic life.",
-                analogy: "Notice the word 'Ant-acid' literally means 'Against Acid'—so an antacid must be a gentle Base!"
-            },
-
-            // ------------------------------------------------------------------------
-            // LESSON 3: ELECTRICITY: CIRCUITS AND THEIR COMPONENTS (Q11 - Q20)
-            // ------------------------------------------------------------------------
-            {
-                id: 11,
-                lesson: 3,
-                topic: "Electric Cell Terminals",
-                quickDiagnostic: false,
-                question: "In a standard cylindrical dry electric cell used in torches and clocks, which parts represent the Positive (+) and Negative (–) terminals respectively?",
-                options: [
-                    "The flat metal disc is Positive (+), and the protruding metal cap is Negative (–)",
-                    "The outer plastic wrapper is Positive (+), and the inner core is Negative (–)",
-                    "Both ends can act as Positive (+) depending on how the cell is held",
-                    "The protruding small metal cap is Positive (+), and the flat metal disc at the bottom is Negative (–)"
-                ],
-                correct: 3,
-                explanation: "Every electric cell has two terminals: the raised metal cap on one end is the Positive (+) terminal, and the flat metal disc on the opposite end is the Negative (–) terminal.",
-                analogy: "Think of the raised metal cap as wearing a 'Plus (+) Crown' on its head, while the flat bottom is a flat minus (–) line!"
-            },
-            {
-                id: 12,
-                lesson: 3,
-                topic: "Battery Connection (Series)",
-                quickDiagnostic: true,
-                question: "Meera wants to connect three electric cells together to form a powerful battery for her science project. How should the terminals of the cells be connected?",
-                options: [
-                    "All three positive (+) terminals tied together at one end, and wait for heat to build up",
-                    "The positive (+) terminal of the first cell directly to the positive (+) terminal of the second cell",
-                    "The negative (–) terminal of the first cell to the positive (+) terminal of the second cell, and so on",
-                    "The cells should be separated by rubber washers between their terminals"
-                ],
-                correct: 2,
-                explanation: "A battery is a series combination of two or more cells where the Positive (+) terminal of one cell is connected to the Negative (–) terminal of the next cell. This allows all cells to push electric current in the same direction.",
-                analogy: "Think of runners in a relay race passing the baton forward: Front (+) of Runner 1 hands off to Back (–) of Runner 2 so everyone pushes in the same direction!"
-            },
-            {
-                id: 13,
-                lesson: 3,
-                topic: "Incandescent Lamp & Filament",
-                quickDiagnostic: false,
-                question: "Why does a 'fused' incandescent torch bulb fail to glow even when connected to a brand-new battery with a closed switch?",
-                options: [
-                    "Its glass chamber has turned into an electrical conductor",
-                    "Its thin filament is broken, creating an open gap that stops electric current from completing the circuit",
-                    "The battery's positive and negative terminals were reversed",
-                    "Incandescent bulbs only glow when connected in open circuits"
-                ],
-                correct: 1,
-                explanation: "Inside an incandescent bulb is a thin wire called the filament, which glows when electric current heats it up. If the filament breaks ('fused' bulb), the conducting path is broken (an open circuit), so current cannot flow through the bulb.",
-                analogy: "The filament is the narrow suspension bridge inside the glass bulb. If that bridge snaps in the middle, no traffic (current) can cross!"
-            },
-            {
-                id: 14,
-                lesson: 3,
-                topic: "LED Polarity & Leads",
-                quickDiagnostic: true,
-                question: "Arjun connects an LED (Light Emitting Diode) to a cell and notices it does not glow, even though the cell and wires are working fine. How do the two wire leads of an LED must be connected for it to glow?",
-                options: [
-                    "The longer lead must be connected to the Positive (+) terminal of the cell, and the shorter lead to the Negative (–) terminal",
-                    "The shorter lead must be connected to the Positive (+) terminal, and the longer lead to the Negative (–) terminal",
-                    "Both leads must be connected to the Positive (+) terminal simultaneously",
-                    "An LED requires its filament to be heated by a matchstick first"
-                ],
-                correct: 0,
-                explanation: "Unlike an incandescent lamp (which glows regardless of polarity), an LED has no filament and allows electric current to flow in ONLY ONE direction. Its longer wire lead is always Positive (+) and must connect to the cell's positive terminal, while the shorter lead is Negative (–).",
-                analogy: "Memory trick: 'Plus (+) takes two strokes of the pen, so it's LONGER; Minus (–) takes only one stroke, so it's SHORTER!'"
-            },
-            {
-                id: 15,
-                lesson: 3,
-                topic: "LED Circuit Symbol",
-                quickDiagnostic: false,
-                question: "In standard circuit diagrams, the symbol for an LED consists of a triangle touching a vertical line with two small arrows pointing outward. What do the triangle and the two outward arrows represent?",
-                options: [
-                    "The triangle points from negative to positive, and the arrows show heat entering the diode",
-                    "The triangle represents a filament, and the arrows represent magnetic field lines",
-                    "The triangle means danger, and the arrows show wire thickness",
-                    "The triangle points in the direction of electric current flow (+ to –), and the outward arrows show that light is emitted"
-                ],
-                correct: 3,
-                explanation: "In an LED symbol, the triangle acts like a directional arrowhead pointing in the direction that conventional current is allowed to flow (from Positive + to Negative –), and the two little arrows pointing away from the symbol indicate that it emits light when current flows.",
-                analogy: "The triangle is literally a 'One-Way Street' arrow showing which way the current marches, while the two mini arrows are light rays shining out!"
-            },
-            {
-                id: 16,
-                lesson: 3,
-                topic: "Switch & Open/Closed Circuit",
-                quickDiagnostic: false,
-                question: "When an electric switch made using a safety pin and two drawing pins is in the 'OFF' position (the safety pin does not touch the second drawing pin), why doesn't the bulb glow?",
-                options: [
-                    "The circuit is 'Closed', trapping all the electricity inside the safety pin",
-                    "Steel safety pins are insulators of electricity",
-                    "The circuit is 'Open', and the air gap between the safety pin and drawing pin acts as an electrical insulator",
-                    "Current flows from the negative terminal and stops at the bulb first"
-                ],
-                correct: 2,
-                explanation: "When the safety pin doesn't touch the second drawing pin, there is an air gap in the path. Since air is an electrical insulator under normal conditions, the circuit is incomplete ('Open circuit'), and no current flows anywhere in the loop.",
-                analogy: "A switch is just a drawbridge over a river. 'Open' switch = drawbridge raised up (cars can't cross!); 'Closed' switch = drawbridge lowered flat (cars drive across!)."
-            },
-            {
-                id: 17,
-                lesson: 3,
-                topic: "Conductors vs Insulators",
-                quickDiagnostic: true,
-                question: "A student builds a conduction tester with a cell, an LED, and two free wire ends. Which set of everyday objects, when placed one by one between the free wire ends, will ALL make the LED glow?",
-                options: [
-                    "Metal key, plastic scale, wooden toothpick, and rubber eraser",
-                    "Metal key, sewing needle, aluminium foil strip, and copper coin",
-                    "Glass bangle, wax candle, aluminium foil, and cotton thread",
-                    "Rubber band, paper strip, plastic straw, and wooden pencil body"
-                ],
-                correct: 1,
-                explanation: "For the LED to glow, the object must be an electrical conductor (allowing current to pass). Metals like a steel/brass key, iron sewing needle, aluminium foil, and copper coin are all conductors. Plastic, wood, rubber, glass, wax, and cotton are insulators.",
-                analogy: "Metals are VIP highways for electrons; plastic, rubber, wood, and glass are roadblocks!"
-            },
-            {
-                id: 18,
-                lesson: 3,
-                topic: "Role of Both Conductors & Insulators",
-                quickDiagnostic: false,
-                question: "Why do electricians use screwdrivers and pliers that have strong steel blades/jaws covered with thick plastic or rubber handles?",
-                options: [
-                    "Steel is a conductor needed for mechanical strength and circuit contact, while plastic/rubber is an insulator that prevents electric current from flowing into the electrician's body",
-                    "Plastic conducts electricity better than steel, making the tool work faster",
-                    "Rubber handles generate electricity for the screwdriver tip",
-                    "Steel is an insulator and plastic is a conductor"
-                ],
-                correct: 0,
-                explanation: "Both conductors and insulators are essential! Metals conduct electricity (and provide strength), while insulators like rubber and plastic block electric current from passing into our bodies (which are conductors!), protecting us from severe electric shocks.",
-                analogy: "Think of holding a hot cup of tea with a cloth mitten: the metal wire carries the energy inside, while the plastic coat acts as the safety glove keeping you safe!"
-            },
-            {
-                id: 19,
-                lesson: 3,
-                topic: "Direction of Conventional Current",
-                quickDiagnostic: false,
-                question: "In a closed electric circuit consisting of a cell, connecting wires, and a glowing lamp, what is the standard direction of electric current flow outside the cell?",
-                options: [
-                    "From the negative (–) terminal of the cell to the positive (+) terminal",
-                    "From both terminals simultaneously toward the middle of the lamp where they collide",
-                    "Current only stays inside the switch and sends wireless signals to the lamp",
-                    "From the positive (+) terminal of the cell, through the wires and lamp, to the negative (–) terminal"
-                ],
-                correct: 3,
-                explanation: "By scientific convention, electric current in a closed circuit is taken to flow from the Positive (+) terminal of the cell or battery, through the circuit components (switch, lamp/LED), and back into the Negative (–) terminal.",
-                analogy: "Just like water flows from High Pressure (+) down to Low Pressure (–), conventional current always marches from + to –!"
-            },
-            {
-                id: 20,
-                lesson: 3,
-                topic: "Circuit Symbols",
-                quickDiagnostic: false,
-                question: "In the standard circuit symbol for an electric cell (consisting of two parallel vertical lines of unequal length), what do the two lines represent?",
-                options: [
-                    "The shorter, thicker line represents the Positive (+) terminal, and the longer line represents the Negative (–) terminal",
-                    "Both lines represent negative terminals, while the connecting wire is positive",
-                    "The longer, thinner vertical line represents the Positive (+) terminal, and the shorter, thicker line represents the Negative (–) terminal",
-                    "The two lines represent an open switch"
-                ],
-                correct: 2,
-                explanation: "In the standard circuit diagram symbol of a cell, the longer thin line stands for the Positive (+) terminal, and the parallel shorter, thicker line stands for the Negative (–) terminal. When drawing a battery, multiple such pairs are drawn alternating long-short-long-short.",
-                analogy: "Just like with LED leads: Long line = Positive (+), Short thick line = Negative (–)!"
-            },
-
-            // ------------------------------------------------------------------------
-            // LESSON 4: THE WORLD OF METALS AND NON-METALS (Q21 - Q30)
-            // ------------------------------------------------------------------------
-            {
-                id: 21,
-                lesson: 4,
-                topic: "Malleability vs Brittleness",
-                quickDiagnostic: true,
-                question: "Why can aluminium and silver be beaten into ultra-thin foils used for wrapping food and decorating sweets, whereas a piece of coal or sulfur crumbles into powder when struck with a hammer?",
-                options: [
-                    "Aluminium and silver are ductile non-metals, while coal is a sonorous metal",
-                    "Aluminium and silver are metals possessing 'malleability', whereas coal and sulfur are 'brittle' non-metals",
-                    "Coal and sulfur melt into liquids when hit with a hammer",
-                    "Aluminium foil is actually made from plastic coated with silver paint"
-                ],
-                correct: 1,
-                explanation: "The property by which metals can be beaten into thin sheets without breaking is called Malleability (gold, silver, aluminium, copper, and iron are malleable). Non-metals like coal and sulfur are Brittle—they shatter into pieces when hammered.",
-                analogy: "Mallet (hammer) → Malleable! Metals flatten like dough under a rolling pin; brittle non-metals shatter like dry papad!"
-            },
-            {
-                id: 22,
-                lesson: 4,
-                topic: "Ductility & Sonority",
-                quickDiagnostic: false,
-                question: "Just 1 gram of gold can be drawn into a thin wire nearly 2 kilometres long, and temple/school bells are made of metal alloys rather than wood. Which two metallic properties do these facts illustrate respectively?",
-                options: [
-                    "Ductility (drawn into wires) and Sonority (producing a deep ringing sound when struck)",
-                    "Malleability and Brittleness",
-                    "Lustre and Corrosion",
-                    "Thermal insulation and Ductility"
-                ],
-                correct: 0,
-                explanation: "Ductility is the ability of metals to be drawn into thin wires (gold and silver are the most ductile metals; copper and aluminium wires are used in cables). Sonority is the property of producing a deep ringing sound when struck (non-metals like wood produce only a dull thud).",
-                analogy: "Ductile = Drawn into wires; Sonorous = Sound (like 'Sonar' or a ringing bell)!"
-            },
-            {
-                id: 23,
-                lesson: 4,
-                topic: "Exceptions in Metals",
-                quickDiagnostic: true,
-                question: "Most metals are hard solids at room temperature that require heavy tools to cut. Which of the following correctly identifies the famous metallic exceptions mentioned in your textbook?",
-                options: [
-                    "Iron and copper are soft enough to cut with a knife, and Gold is liquid at room temperature",
-                    "Sulfur and phosphorus are liquid metals used in thermometers",
-                    "Aluminium is a gas at room temperature and coal is a soft metal",
-                    "Sodium and potassium are metals so soft they can be cut with a knife, and Mercury is a metal that exists as a liquid at room temperature"
-                ],
-                correct: 3,
-                explanation: "While metals like iron and copper are hard solids, Sodium and Potassium are exceptions—they are so soft (like firm paneer or wax) that they can be cut with a knife! Mercury is the only metal that is in a liquid state at room temperature (used in clinical thermometers).",
-                analogy: "Even the 'Tough Metal Club' has rebels: Sodium & Potassium are softies (cut with a knife), and Mercury refuses to freeze at room temperature!"
-            },
-            {
-                id: 24,
-                lesson: 4,
-                topic: "Storage of Phosphorus",
-                quickDiagnostic: false,
-                question: "Why is phosphorus—a non-metal—always stored submerged under water in chemical laboratories rather than kept in an open jar?",
-                options: [
-                    "Phosphorus melts into a gas if it isn't cooled by water",
-                    "Phosphorus dissolves in water to form a sweet-smelling perfume",
-                    "Phosphorus is a highly reactive non-metal that catches fire spontaneously when exposed to oxygen in air, but does not react with water",
-                    "Water makes phosphorus malleable so it can be beaten into sheets"
-                ],
-                correct: 2,
-                explanation: "Phosphorus is a very reactive non-metal. If left exposed to atmospheric air, it reacts rapidly with oxygen and catches fire at room temperature! To prevent contact with atmospheric oxygen, it is stored safely under water.",
-                analogy: "Water acts like an airtight security blanket hiding phosphorus from its arch-enemy, Oxygen in the air!"
-            },
-            {
-                id: 25,
-                lesson: 4,
-                topic: "Nature of Metal Oxides",
-                quickDiagnostic: true,
-                question: "When a magnesium ribbon is burned in air, it produces a dazzling white ash (magnesium oxide). When this ash is dissolved in water and tested with red and blue litmus papers, what happens and what does it prove?",
-                options: [
-                    "Blue litmus turns red, proving that oxides of metals are ACIDIC in nature",
-                    "Red litmus turns blue, proving that oxides of metals are generally BASIC in nature",
-                    "Neither litmus changes colour, proving metal oxides are always neutral",
-                    "Both litmus papers turn black because magnesium is a non-metal"
-                ],
-                correct: 1,
-                explanation: "Magnesium (a metal) reacts with oxygen to form Magnesium Oxide. When dissolved in water, it forms magnesium hydroxide, which turns Red litmus paper Blue. This demonstrates a core rule: Oxides of metals are generally BASIC in nature!",
-                analogy: "Remember the golden pair: **M-B** (Metal oxides = Basic, turning Red litmus Blue)!"
-            },
-            {
-                id: 26,
-                lesson: 4,
-                topic: "Nature of Non-metal Oxides",
-                quickDiagnostic: false,
-                question: "When powdered sulfur is burned in a deflagrating spoon inside a gas jar and the resulting gas (sulfur dioxide) is shaken with water, how will this solution react with litmus paper?",
-                options: [
-                    "It turns blue litmus paper red, showing that oxides of non-metals are ACIDIC in nature",
-                    "It turns red litmus paper blue, showing that oxides of non-metals are BASIC in nature",
-                    "It turns turmeric paper bright red",
-                    "It has no effect on any indicator because sulfur is an inert gas"
-                ],
-                correct: 0,
-                explanation: "Sulfur is a non-metal. When it burns in oxygen, it forms Sulfur Dioxide gas. Dissolving this gas in water produces sulfurous acid, which turns Blue litmus paper Red. Thus, oxides of non-metals are generally ACIDIC in nature!",
-                analogy: "Contrast with metals: Metal Oxides = Basic; Non-metal Oxides (like Sulfur dioxide or Carbon dioxide) = Acidic!"
-            },
-            {
-                id: 27,
-                lesson: 4,
-                topic: "Conditions for Rusting of Iron",
-                quickDiagnostic: false,
-                question: "In the classic three-test-tube experiment on rusting of iron nails: Tube A has water + air; Tube B has boiled distilled water topped with oil (no air); Tube C has dry calcium chloride (dry air, no water). Which iron nail(s) will develop brown rust?",
-                options: [
-                    "Only the nail in Tube B, because oil accelerates rusting",
-                    "Only the nail in Tube C, because calcium chloride reacts with iron to make rust",
-                    "All three nails will rust equally because iron rusts spontaneously on its own",
-                    "Only the nail in Tube A, because rusting of iron requires the simultaneous presence of BOTH oxygen (air) and water (moisture)"
-                ],
-                correct: 3,
-                explanation: "Rusting of iron is a chemical reaction where iron reacts with BOTH oxygen (from air) and water/moisture to form brown flaky iron oxide (rust). In Tube B there is no dissolved air, and in Tube C calcium chloride absorbs all moisture—so only Tube A has both ingredients!",
-                analogy: "Rusting requires a 'Two-Key Lock': Key 1 is Oxygen (air) and Key 2 is Water (moisture). If even one key is missing, the lock stays shut and iron cannot rust!"
-            },
-            {
-                id: 28,
-                lesson: 4,
-                topic: "Corrosion & Prevention",
-                quickDiagnostic: false,
-                question: "Over time, copper vessels develop a greenish coating, silver ornaments turn blackish, and iron bridges develop brown flaky rust. What is this general process called, and how can iron be protected from it?",
-                options: [
-                    "It is called Malleability; iron is protected by soaking it in salt water",
-                    "It is called Combustion; iron is protected by rubbing it with lemon juice",
-                    "It is called Corrosion; iron can be protected by painting, oiling, greasing, or coating with zinc (galvanization)",
-                    "It is called Sonority; metals change colour to conduct electricity better"
-                ],
-                correct: 2,
-                explanation: "Gradual deterioration of metal surfaces due to reaction with air, moisture, or gases in the atmosphere is called Corrosion (in iron, it is specifically called rusting). Coating iron with paint, grease, oil, or a layer of zinc metal (galvanization) blocks air and moisture from touching the iron.",
-                analogy: "Paint, grease, and zinc act like a waterproof raincoat for iron—if air and rain can't touch the iron skin, rust can't form!"
-            },
-            {
-                id: 29,
-                lesson: 4,
-                topic: "Elements vs Everyday Materials",
-                quickDiagnostic: false,
-                question: "Scientists have identified 118 pure substances called 'Elements' (consisting of metals and non-metals) that cannot be broken down into simpler substances by chemical reactions. Which of the following lists contains ONLY elements?",
-                options: [
-                    "Iron, Plastic, Wood, Glass, and Copper",
-                    "Iron, Gold, Oxygen, Carbon, and Sulfur",
-                    "Water, Air, Soil, Steel, and Paper",
-                    "Aluminium, Brass, Tea, Sugar, and Nitrogen"
-                ],
-                correct: 1,
-                explanation: "Elements are pure fundamental building blocks of matter (like Iron, Gold, Copper, Aluminium, Oxygen, Nitrogen, Carbon, Sulfur). Everyday materials like plastic, wood, glass, paper, water, sugar, and steel/brass (alloys/mixtures) are made by combining multiple elements and are NOT elements themselves.",
-                analogy: "Elements are the 118 letters of the Universe's alphabet (Fe, Au, O, C, S). Materials like plastic, wood, and water are whole words spelled by combining letters!"
-            },
-            {
-                id: 30,
-                lesson: 4,
-                topic: "Non-metals in Living Beings",
-                quickDiagnostic: false,
-                question: "Although non-metals are poor conductors and not malleable, they are indispensable for life. Which non-metal is essential for breathing and combustion, and which non-metal forms the backbone of proteins, carbohydrates, and fats in all living organisms?",
-                options: [
-                    "Oxygen is essential for breathing/combustion, and Carbon forms the backbone of food molecules in living beings",
-                    "Mercury is used for breathing, and Aluminium forms carbohydrates",
-                    "Chlorine is used for breathing, and Sodium forms the backbone of proteins",
-                    "Iron is a non-metal used for breathing, and Gold forms fats"
-                ],
-                correct: 0,
-                explanation: "Oxygen is a life-sustaining non-metal gas required for cellular respiration (breathing) and combustion. Carbon is a fundamental non-metal present in all organic molecules (proteins, fats, carbohydrates, vitamins, DNA) that make up plants and animals.",
-                analogy: "Metals build our bridges and machines, while Non-metals (Carbon, Oxygen, Nitrogen, Hydrogen) build OUR living bodies and the air we breathe!"
-            },
-
-            // ------------------------------------------------------------------------
-            // LESSON 5: CHANGES AROUND US: PHYSICAL AND CHEMICAL (Q31 - Q40)
-            // ------------------------------------------------------------------------
-            {
-                id: 31,
-                lesson: 5,
-                topic: "Physical vs Chemical Change Core",
-                quickDiagnostic: true,
-                question: "What is the single most fundamental scientific criterion that distinguishes a 'Chemical Change' from a 'Physical Change'?",
-                options: [
-                    "Physical changes only happen in solids, whereas chemical changes only happen in liquids",
-                    "All physical changes require heat, whereas chemical changes never involve heat",
-                    "In a physical change, the weight of the object doubles",
-                    "In a chemical change, one or more NEW substances with entirely different properties are formed, whereas in a physical change no new substance is formed"
-                ],
-                correct: 3,
-                explanation: "A Physical change only alters physical properties like shape, size, or physical state (solid/liquid/gas) without changing the substance's chemical identity. A Chemical change involves a chemical reaction that produces one or more brand-new substances.",
-                analogy: "Physical change = Same actor wearing a different costume (ice → water → steam). Chemical change = A totally new character is born (milk → curd)!"
-            },
-            {
-                id: 32,
-                lesson: 5,
-                topic: "Identifying Chemical Changes",
-                quickDiagnostic: false,
-                question: "Which of the following groups consists EXCLUSIVELY of chemical changes?",
-                options: [
-                    "Melting of ice cubes, tearing a sheet of paper, boiling water, and crushing chalk",
-                    "Folding paper into an aeroplane, stretching a rubber band, and drying wet clothes",
-                    "Rusting of an iron lock, ripening of a mango, curdling of milk, and burning of magnesium ribbon",
-                    "Dissolving sugar in water, chopping vegetables, and freezing water into ice"
-                ],
-                correct: 2,
-                explanation: "Rusting forms a new substance (iron oxide), ripening changes raw starch/acids into sweet sugars and aroma compounds, curdling turns milk lactose into lactic acid/curd, and burning magnesium forms magnesium oxide. All four create new substances!",
-                analogy: "Ask yourself: 'Has the molecule's identity changed?' Rust is not iron, curd is not milk, and ripe sweet mango has new sugar molecules!"
-            },
-            {
-                id: 33,
-                lesson: 5,
-                topic: "Baking Soda + Vinegar Reaction",
-                quickDiagnostic: false,
-                question: "When a pinch of baking soda is added to vinegar in a test tube, brisk effervescence (bubbling) occurs. When this evolved gas is passed through freshly prepared lime water, the lime water turns milky. Identify the gas and the type of change.",
-                options: [
-                    "Oxygen gas is evolved; it is purely a physical change like boiling water",
-                    "Carbon dioxide (CO₂) gas is evolved; both the vinegar-baking soda reaction and the turning of lime water milky are chemical changes",
-                    "Hydrogen gas is evolved; lime water turns milky due to freezing",
-                    "Nitrogen gas is evolved; no new substance is formed"
-                ],
-                correct: 1,
-                explanation: "Vinegar (acetic acid) reacts chemically with baking soda (sodium hydrogen carbonate) to form a new gas: Carbon dioxide (CO₂). When CO₂ passes through lime water (calcium hydroxide), it reacts chemically to form insoluble white particles of Calcium Carbonate, turning the lime water milky!",
-                analogy: "Lime water turning milky is the ultimate 'fingerprint detective test' for Carbon Dioxide (CO₂)—the white cloud is brand-new chalk (calcium carbonate) forming in the water!"
-            },
-            {
-                id: 34,
-                lesson: 5,
-                topic: "Burning of a Candle (Both Changes)",
-                quickDiagnostic: true,
-                question: "Why is a burning wax candle considered a classic example that demonstrates BOTH physical and chemical changes happening at the same time?",
-                options: [
-                    "Melting of solid wax into liquid wax (and its solidification on cooling) is a physical change, while the burning of wax vapour near the wick to produce CO₂, water vapour, heat, and light is a chemical change",
-                    "Lighting the matchstick is a physical change, and blowing out the candle is a chemical change",
-                    "The cotton wick melting is a physical change, and the wax freezing is a chemical change",
-                    "Only the colour of the candle changes physically while its shape changes chemically"
-                ],
-                correct: 0,
-                explanation: "When heat melts solid wax into liquid wax that drips down and solidifies again, no new substance is formed—that is a Physical change. Meanwhile, liquid wax drawn up the wick vaporizes and reacts with oxygen (burns) to form new substances (carbon dioxide, soot, water vapour) with heat and light—a Chemical change!",
-                analogy: "Drip & Freeze = Physical change (wax is still wax). Flame & Smoke = Chemical change (wax turns into invisible gases and light)!"
-            },
-            {
-                id: 35,
-                lesson: 5,
-                topic: "Combustion & Ignition Temperature",
-                quickDiagnostic: true,
-                question: "A piece of dry paper and a log of wood are both combustible substances surrounded by oxygen in your room, yet neither catches fire on its own. Why does a lighted matchstick set the paper on fire immediately, but cannot ignite a thick log of wood right away?",
-                options: [
-                    "Paper contains oxygen inside it, whereas wood does not react with oxygen",
-                    "Wood is a non-combustible substance like stone or glass",
-                    "Ignition temperature is the highest temperature at which a substance freezes",
-                    "A substance catches fire only when heated to its 'ignition temperature'; thin paper reaches its ignition temperature quickly, whereas a thick wood log requires much more heat to reach its ignition temperature"
-                ],
-                correct: 3,
-                explanation: "The lowest temperature at which a substance catches fire is called its Ignition Temperature. Even with fuel and oxygen present, combustion cannot start until the fuel is heated to its ignition temperature. Paper needs very little heat to reach this point, while a heavy wood log absorbs and spreads out heat.",
-                analogy: "Think of Ignition Temperature as the 'Minimum Ticket Price' to start a fire. A tiny matchstick has enough pocket change for thin paper, but not enough to heat up a giant wooden log!"
-            },
-            {
-                id: 36,
-                lesson: 5,
-                topic: "Fire Triangle & Safety",
-                quickDiagnostic: false,
-                question: "If a person's clothes accidentally catch fire, why do safety experts advise wrapping a thick woollen blanket around them, and strictly warn AGAINST using a synthetic (nylon/polyester) blanket?",
-                options: [
-                    "Woollen blankets release carbon dioxide gas chemically, while synthetic blankets release oxygen",
-                    "Woollen blankets raise the ignition temperature of the skin",
-                    "A thick woollen blanket cuts off the supply of air (oxygen) to extinguish the fire, whereas a synthetic blanket catches fire easily and melts onto the skin causing severe burns",
-                    "Synthetic blankets are too heavy to wrap around a person"
-                ],
-                correct: 2,
-                explanation: "Fire needs three things: Fuel, Oxygen (air), and Heat. Wrapping a thick woollen blanket seals off atmospheric oxygen, starving and extinguishing the fire. Synthetic fabrics melt when heated and stick to the skin, worsening the burns.",
-                analogy: "Break any leg of the 3-legged Fire Stool (Fuel, Oxygen, Heat) and the fire collapses! The woollen blanket kicks away the Oxygen leg."
-            },
-            {
-                id: 37,
-                lesson: 5,
-                topic: "Paper Cup Boiling Water Experiment",
-                quickDiagnostic: false,
-                question: "In a classroom activity, a student heats water inside a thin paper cup held over a candle flame. Remarkably, the water heats up and even boils, while the paper cup does NOT burn! Why?",
-                options: [
-                    "Water chemically reacts with paper to turn it into a metal",
-                    "The heat supplied to the paper cup is rapidly transferred to the water inside by conduction, preventing the paper from reaching its ignition temperature",
-                    "Candle flames are cold in the middle and cannot burn paper",
-                    "Boiling water removes all oxygen from the room around the cup"
-                ],
-                correct: 1,
-                explanation: "As long as there is liquid water inside the paper cup, the water absorbs the heat from the paper right away. Because the paper's temperature stays near 100°C (well below paper's ignition temperature of ~230°C), the paper cup cannot catch fire!",
-                analogy: "Water acts like a greedy heat-sponge sitting inside the cup—stealing all the heat before the paper can get hot enough to catch fire!"
-            },
-            {
-                id: 38,
-                lesson: 5,
-                topic: "Bioluminescence in Fireflies",
-                quickDiagnostic: false,
-                question: "Fireflies (jugnu) glow with flashes of light on warm summer nights without burning themselves. What kind of change produces this light?",
-                options: [
-                    "A chemical change inside the firefly's body (bioluminescence) that produces light energy WITHOUT producing heat",
-                    "A physical change where fireflies store sunlight in mirrors on their wings",
-                    "High-temperature combustion of wax inside their abdomen",
-                    "An electric cell and tungsten filament glowing inside the insect"
-                ],
-                correct: 0,
-                explanation: "Not all chemical reactions that produce light produce intense heat! Fireflies emit light through a specialized chemical reaction in their abdomen (involving oxygen and luciferin) called Bioluminescence—a chemical change that releases cold light.",
-                analogy: "A firefly is nature's chemical glow-stick—mixing molecules to make pure light without any flame!"
-            },
-            {
-                id: 39,
-                lesson: 5,
-                topic: "Weathering of Rocks",
-                quickDiagnostic: false,
-                question: "Over thousands of years, large rocks break down into soil through 'Weathering'. Why do dark basalt rocks containing iron often develop a reddish-brown surface layer during weathering?",
-                options: [
-                    "It is purely physical weathering: sunlight paints the rock red without forming any new substance",
-                    "Tree roots secrete red litmus dye onto the basalt rock",
-                    "Wind erosion melts the rock into red lava",
-                    "It is chemical weathering: the iron present in the basalt rock reacts with atmospheric oxygen and water to form red-coloured iron oxide"
-                ],
-                correct: 3,
-                explanation: "Weathering involves BOTH physical changes (cracking due to day/night temperature changes, freezing water, or growing plant roots) AND chemical changes. When iron minerals inside basalt rock react with water and air over centuries, they chemically transform into red iron oxide!",
-                analogy: "Even mountains 'rust'! The red soil formed from dark basalt rock is nature's slow-motion chemical change."
-            },
-            {
-                id: 40,
-                lesson: 5,
-                topic: "Erosion & Reversibility",
-                quickDiagnostic: false,
-                question: "Flowing river water and wind carry broken rock fragments, sand, and pebbles from mountains down to plains (Erosion), smoothing pebbles along the way. What type of change is erosion, and are all physical changes easily reversible?",
-                options: [
-                    "Erosion is a chemical change because pebbles become round, and all physical changes are 100% reversible",
-                    "Erosion is a combustion reaction caused by friction in river water",
-                    "Erosion is a physical change (location and size/shape of rock change, no new substance formed), and NOT all physical changes are easily reversible (e.g., chopping wood or breaking a rock)",
-                    "Every chemical change is easily reversible by cooling"
-                ],
-                correct: 2,
-                explanation: "During erosion and pebble-smoothing, rock is still rock—no new chemical substance is formed, so it is a Physical change. It also busts a common myth: while melting ice is a reversible physical change, tearing paper, chopping vegetables, or eroding a boulder are physical changes that cannot be easily reversed!",
-                analogy: "Don't fall for the trap that 'Physical = Always Reversible'! If you smash a glass cup or chop a carrot, no new chemical is made (Physical change), yet you can't easily un-chop the carrot!"
-            },
-
-            // ------------------------------------------------------------------------
-            // LESSON 6: ADOLESCENCE: A STAGE OF GROWTH AND CHANGE (Q41 - Q50)
-            // ------------------------------------------------------------------------
-            {
-                id: 41,
-                lesson: 6,
-                topic: "Adolescence & Puberty Period",
-                quickDiagnostic: false,
-                question: "According to standard health and science definitions in your NCERT textbook, what is 'Adolescence' and what age group does it generally cover?",
-                options: [
-                    "The stage of infancy from birth to 5 years of age",
-                    "The period of transition from childhood to adulthood marked by rapid physical, emotional, and reproductive growth, generally spanning ages 10 to 19 years",
-                    "The period of old age starting after 60 years",
-                    "A sudden illness that affects only boys between ages 15 and 16"
-                ],
-                correct: 1,
-                explanation: "Adolescence is the rapid developmental bridge between childhood and adulthood, typically covering ages 10 to 19 years (which includes the 'teenage' years 13 to 19). During this stage, the body undergoes Puberty, reaching reproductive maturity.",
-                analogy: "Adolescence (10–19) is the bridge connecting Childhood Island to Adulthood Mainland!"
-            },
-            {
-                id: 42,
-                lesson: 6,
-                topic: "Voice Box (Larynx) & Adam's Apple",
-                quickDiagnostic: true,
-                question: "During puberty, many adolescent boys experience a temporary cracking or hoarseness in their voice before it becomes permanently deeper, accompanied by a visible bump in the front of the throat. What causes this?",
-                options: [
-                    "The voice box (larynx) grows significantly larger during puberty; in boys, this enlarged larynx protrudes in the throat as the 'Adam's apple' and results in a deeper voice",
-                    "Boys develop a second windpipe in their throat during teenage years",
-                    "Drinking cold water causes the throat bones to swell permanently",
-                    "The thyroid gland turns into cartilage due to lack of calcium"
-                ],
-                correct: 0,
-                explanation: "At puberty, the voice box (larynx) begins to grow in both boys and girls. In boys, it grows much larger and can be seen as a protruding bump in the front of the neck called the Adam's apple. As the vocal cords lengthen and muscles adjust, the voice may briefly crack before settling into a deep pitch.",
-                analogy: "Think of musical instruments: a small violin has a high-pitched voice, while a larger cello has a deep, resonant voice. As the larynx (sound-box) grows bigger, the voice naturally deepens!"
-            },
-            {
-                id: 43,
-                lesson: 6,
-                topic: "Sweat & Sebaceous Glands (Acne)",
-                quickDiagnostic: false,
-                question: "Why do many adolescents develop acne and pimples on their face during puberty, and what is the scientifically recommended way to care for the skin?",
-                options: [
-                    "Pimples are caused by reading books in dim light; one should squeeze them with sharp fingernails",
-                    "Oil glands shrink during puberty; one should apply heavy grease to the face",
-                    "Acne only occurs if a teenager drinks too much pure water",
-                    "Increased activity of sweat glands and sebaceous (oil) glands clogs skin pores; one should wash the face gently with mild soap and water and avoid popping or scratching pimples"
-                ],
-                correct: 3,
-                explanation: "During adolescence, sweat glands and sebaceous (oil-secreting) glands become much more active. Excess oil and dead skin cells can clog pores, allowing bacteria to cause redness and pimples (acne). Washing regularly with mild soap and water helps, whereas popping pimples causes deeper infection and scars.",
-                analogy: "Your skin's oil glands are simply working overtime during the puberty upgrade—keep the pores clean with gentle washing rather than picking at them!"
-            },
-            {
-                id: 44,
-                lesson: 6,
-                topic: "Role of Hormones",
-                quickDiagnostic: true,
-                question: "What are the invisible 'chemical messengers' produced inside the human body that initiate and regulate the physical, reproductive, and emotional changes of puberty?",
-                options: [
-                    "Digestive enzymes in saliva",
-                    "Antibiotics in blood",
-                    "Hormones",
-                    "Acid-base indicators"
-                ],
-                correct: 2,
-                explanation: "Hormones are specialized chemical substances secreted by endocrine glands inside the body. They travel through the bloodstream to target organs, acting as chemical messengers that trigger growth spurts, secondary sexual characteristics, and reproductive maturation during adolescence.",
-                analogy: "Hormones are your body's internal WhatsApp broadcast messages—sent by glands through the bloodstream to tell bones, voice box, and organs: 'Time to grow!'"
-            },
-            {
-                id: 45,
-                lesson: 6,
-                topic: "Individual Variations in Growth",
-                quickDiagnostic: false,
-                question: "Two 13-year-old classmates, Kabir and Dev, notice that Kabir has already grown tall with faint facial hair, while Dev has not yet had his height spurt or voice change. Which scientific conclusion is correct?",
-                options: [
-                    "Dev has a permanent genetic disease because every human must finish puberty at age 12",
-                    "Both are completely normal; the timing, pace, and extent of puberty changes vary naturally from person to person",
-                    "Kabir is growing too fast and should stop eating proteins immediately",
-                    "Boys only grow in height after age 21"
-                ],
-                correct: 1,
-                explanation: "Just as different flowers in a garden bloom in different weeks, every adolescent's biological clock is unique! The age at which growth spurts, facial/body hair, or voice changes begin—and how fast they progress—varies naturally among healthy individuals.",
-                analogy: "Puberty isn't a 100-metre race where everyone starts at the exact same whistle—everyone reaches adulthood at their own body's healthy timetable!"
-            },
-            {
-                id: 46,
-                lesson: 6,
-                topic: "Nutritional Needs & Iron (Anaemia)",
-                quickDiagnostic: true,
-                question: "Why is it especially crucial for adolescents (particularly adolescent girls) to include iron-rich foods like spinach, jaggery (gur), amla, dates, and pulses in their daily diet alongside calcium and proteins?",
-                options: [
-                    "Iron is essential for building haemoglobin in red blood cells to prevent iron-deficiency anaemia and support rapid growth and blood replenishment during menstruation",
-                    "Iron makes bones malleable so they can bend like wires",
-                    "Iron neutralizes stomach acid like an antacid",
-                    "Chip packets and aerated soft drinks already contain sufficient iron and calcium"
-                ],
-                correct: 0,
-                explanation: "During adolescence, blood volume increases rapidly (and girls lose blood monthly during menstruation). Iron is required to form haemoglobin in red blood cells, which carries oxygen throughout the body. Lack of iron causes Anaemia (weakness, fatigue, pale skin). Vitamin C (in amla/lemon) also helps the body absorb iron!",
-                analogy: "Proteins are the bricks (muscles), Calcium is the concrete pillars (bones), and Iron builds the oxygen delivery trucks (haemoglobin in blood)!"
-            },
-            {
-                id: 47,
-                lesson: 6,
-                topic: "Menstruation & Menstrual Hygiene",
-                quickDiagnostic: false,
-                question: "Which of the following statements promotes a scientifically accurate and healthy attitude toward menstruation in adolescent girls?",
-                options: [
-                    "Menstruation is an infectious disease and girls should be isolated from school during periods",
-                    "Used sanitary pads should be flushed down the toilet drain to block pipes",
-                    "Physical hygiene is not needed during the menstrual cycle",
-                    "Menstruation is a natural, healthy biological process; using clean sanitary pads, changing them regularly, wrapping used pads properly before disposal in a bin, and society breaking myths/taboos are essential"
-                ],
-                correct: 3,
-                explanation: "Menstruation is a completely normal biological cycle marking reproductive health in adolescent girls and women. Maintaining menstrual hygiene (using clean sanitary pads or cloth pads, washing with soap and water, and disposing of wrapped pads in dustbins—never flushing them) prevents infections, and empathy/awareness removes outdated social taboos.",
-                analogy: "Science replaces superstition with respect and hygiene: menstruation is a vital sign of biological health, never something to be ashamed of!"
-            },
-            {
-                id: 48,
-                lesson: 6,
-                topic: "Emotional & Behavioural Changes",
-                quickDiagnostic: false,
-                question: "During adolescence, teenagers often experience heightened sensitivity, mood swings, self-consciousness, and strong curiosity. What is the healthiest way to navigate these emotional changes?",
-                options: [
-                    "Suppressing all feelings and avoiding talking to family or teachers",
-                    "Bullying classmates who look or grow differently",
-                    "Open communication with trusted parents/teachers, engaging in sports or creative hobbies, practising empathy toward peers, and recognizing mood swings as a normal part of brain and hormonal development",
-                    "Spending 18 hours a day isolated on social media without sleep or exercise"
-                ],
-                correct: 2,
-                explanation: "Hormonal changes and rapid brain development during adolescence naturally bring intense emotions, identity exploration, and mood swings. Channels like sports, music, art, adequate sleep, and honest conversations with parents, teachers, or counsellors build emotional resilience.",
-                analogy: "When your brain is upgrading its emotional horsepower, healthy hobbies and trusted adults act as the steering wheel and shock absorbers!"
-            },
-            {
-                id: 49,
-                lesson: 6,
-                topic: "Saying NO to Harmful Substances",
-                quickDiagnostic: false,
-                question: "If a peer or older acquaintance pressures an adolescent to try tobacco, gutkha, cigarettes, alcohol, or addictive drugs 'just once to look cool', what is the scientifically wise response and why?",
-                options: [
-                    "Try it once so friends don't tease you, as adolescents cannot get addicted",
-                    "Firmly and confidently say 'NO', because addictive substances damage the developing adolescent brain, lungs, and liver, and even trying them once can trap a person in lifelong addiction",
-                    "Tobacco and gutkha improve stamina and voice quality during puberty",
-                    "Addictive substances only affect people above 50 years of age"
-                ],
-                correct: 1,
-                explanation: "The adolescent brain is still developing and is highly vulnerable to addiction. Substances like tobacco, gutkha, cigarettes, alcohol, and narcotics cause severe, permanent damage to the nervous system, lungs, heart, and oral health. Saying a firm 'NO' to negative peer pressure is true strength.",
-                analogy: "Real confidence isn't copying a harmful dare—it's protecting your body and future by saying a fearless 'NO'!"
-            },
-            {
-                id: 50,
-                lesson: 6,
-                topic: "Holistic Adolescent Health",
-                quickDiagnostic: false,
-                question: "Which combination of daily habits best supports the physical, mental, and social well-being of a Class 7 student going through adolescence?",
-                options: [
-                    "Balanced home-cooked meals (proteins, calcium, iron), daily outdoor physical exercise/yoga, 8–9 hours of sleep, personal hygiene, and respectful digital/social boundaries",
-                    "Skipping breakfast, replacing meals with ultra-processed junk food, and sleeping 4 hours a night",
-                    "Avoiding all outdoor games and sunshine to save energy",
-                    "Taking unprescribed hormone pills to grow taller overnight"
-                ],
-                correct: 0,
-                explanation: "Adolescence is the foundation for lifelong health. A balanced diet fuels rapid bone and muscle growth, outdoor exercise and yoga strengthen the heart, bones, and mood, personal hygiene prevents infections, and adequate sleep lets growth hormones do their job!",
-                analogy: "Think of your adolescent body as a high-performance sapling growing into a mighty tree: Nutrition is the fertile soil, Exercise is the sunlight, Hygiene is protection from pests, and Sleep is the rain!"
-            }
-        ];
+    {
+        "id": 1,
+        "lesson": 2,
+        "topic": "Litmus & Lichens",
+        "quickDiagnostic": true,
+        "question": "Litmus, one of the most widely used natural acid-base indicators in science laboratories, is extracted from which living organism?",
+        "options": [
+            "Petals of the China rose (Hibiscus) flower",
+            "Lichens (a symbiotic association of algae and fungi)",
+            "Roots of the turmeric (Curcuma longa) plant",
+            "Leaves of the neem tree"
+        ],
+        "correct": 1,
+        "explanation": "Natural litmus is extracted from Lichens—fascinating organisms where an alga and a fungus live together in partnership. In distilled (neutral) water, litmus extract has a mauve (purple) tint, and it is absorbed onto paper strips to make Blue and Red litmus papers.",
+        "analogy": "Think of Lichens as nature's original chemistry partners—living on tree bark and rocks, brewing the purple dye that becomes our lab's acid-base traffic light!"
+    },
+    {
+        "id": 2,
+        "lesson": 2,
+        "topic": "Litmus Colour Change",
+        "quickDiagnostic": false,
+        "question": "Ananya dips a strip of blue litmus paper and a strip of red litmus paper into freshly squeezed amla (Indian gooseberry) juice. What observation will she make?",
+        "options": [
+            "Both blue and red litmus papers turn green",
+            "Red litmus turns blue, while blue litmus remains blue",
+            "Blue litmus turns red, while red litmus remains red",
+            "Neither blue nor red litmus paper shows any colour change"
+        ],
+        "correct": 2,
+        "explanation": "Amla juice tastes sour because it is rich in acids (ascorbic and citric acid). Acids turn Blue litmus paper Red, and have no colour-changing effect on Red litmus paper (which stays red).",
+        "analogy": "Remember 'A-B-R': Acid turns Blue to Red (like a red danger sign warning you that the substance is sour/acidic)!"
+    },
+    {
+        "id": 3,
+        "lesson": 2,
+        "topic": "Turmeric Indicator",
+        "quickDiagnostic": true,
+        "question": "Rohan accidentally drops yellow turmeric curry on his white cotton shirt. When he rubs soap water on the stain, it turns bright red. If he now squeezes lemon juice over the red spot, what will happen and why?",
+        "options": [
+            "It turns back to yellow because acidic lemon juice neutralizes the basic soap",
+            "It turns green because turmeric reacts with citric acid to form chlorophyll",
+            "It stays bright red because turmeric is a permanent dye in acids",
+            "It turns blue because lemon juice is a strong base"
+        ],
+        "correct": 0,
+        "explanation": "Turmeric is a natural indicator that is yellow in acidic and neutral mediums, and turns deep red in basic mediums (like soap water). Adding lemon juice (citric acid) neutralizes the basic soap and makes the spot acidic/neutral again, restoring the yellow colour!",
+        "analogy": "Turmeric only 'blushes' bright RED when it meets a Base (soap). Lemon juice cancels out the soap's basic power, calming turmeric back to yellow!"
+    },
+    {
+        "id": 4,
+        "lesson": 2,
+        "topic": "Red Rose / China Rose Indicator",
+        "quickDiagnostic": false,
+        "question": "A student prepares a natural indicator by soaking red rose (or China rose) petals in warm water. What colours will this extract produce when added to (i) Vinegar and (ii) Baking soda solution respectively?",
+        "options": [
+            "(i) Green in vinegar, and (ii) Deep Red in baking soda solution",
+            "(i) Yellow in vinegar, and (ii) Blue in baking soda solution",
+            "(i) Colourless in vinegar, and (ii) Pink in baking soda solution",
+            "(i) Deep Red / Magenta in vinegar, and (ii) Green in baking soda solution"
+        ],
+        "correct": 3,
+        "explanation": "Red rose / China rose extract turns dark pink/red (magenta) in acidic solutions like vinegar (acetic acid), and turns green in basic solutions like baking soda (sodium hydrogen carbonate) or soap water.",
+        "analogy": "Think of a traffic light: Acid = Red (Stop, sour/corrosive!), Base = Green (Go, soapy base!)."
+    },
+    {
+        "id": 5,
+        "lesson": 2,
+        "topic": "Olfactory Indicators",
+        "quickDiagnostic": false,
+        "question": "Which of the following pairs of substances can act as 'olfactory indicators' to help a visually impaired student distinguish between an acidic solution and a basic solution by smell?",
+        "options": [
+            "Turmeric paste and red rose extract",
+            "Blue litmus and phenolphthalein",
+            "Finely chopped onion and vanilla essence",
+            "Sugar solution and common salt solution"
+        ],
+        "correct": 2,
+        "explanation": "Olfactory indicators work by changing their odour (smell) rather than colour. Both onion and vanilla essence retain their characteristic smell in acidic mediums, but their smell disappears (is destroyed) when a basic solution like sodium hydroxide or soap water is added.",
+        "analogy": "Olfactory = Nose! Bases act like an 'odour eraser' for onion and vanilla, while acids let their smell stay strong."
+    },
+    {
+        "id": 6,
+        "lesson": 2,
+        "topic": "Natural Acids in Food",
+        "quickDiagnostic": false,
+        "question": "Match the natural edible items with the primary acid present in them: (1) Curd, (2) Tamarind, (3) Vinegar, (4) Lemon. Which option gives the correct sequence?",
+        "options": [
+            "(1) Lactic acid, (2) Tartaric acid, (3) Acetic acid, (4) Citric acid",
+            "(1) Citric acid, (2) Lactic acid, (3) Tartaric acid, (4) Acetic acid",
+            "(1) Tartaric acid, (2) Acetic acid, (3) Lactic acid, (4) Formic acid",
+            "(1) Acetic acid, (2) Citric acid, (3) Formic acid, (4) Lactic acid"
+        ],
+        "correct": 0,
+        "explanation": "Friendly bacteria (Lactobacillus) convert milk sugar into Lactic acid in curd; Tamarind and unripe grapes contain Tartaric acid; Vinegar is dilute Acetic acid; and citrus fruits like Lemon and Orange contain Citric acid.",
+        "analogy": "Lacto = Milk/Curd (Lactic); Citrus = Lemon (Citric); Tart/Tangy chutney = Tamarind (Tartaric)!"
+    },
+    {
+        "id": 7,
+        "lesson": 2,
+        "topic": "Neutralization in Daily Life",
+        "quickDiagnostic": true,
+        "question": "When a red ant bites your hand, it causes a sharp burning pain. Why does rubbing moist baking soda or calamine solution on the bite give immediate relief?",
+        "options": [
+            "The ant injects a strong base, which is neutralized by acidic baking soda",
+            "Baking soda cools the skin by absorbing oxygen from the air",
+            "Calamine solution is a strong acid that kills the ant's venom",
+            "The ant injects acidic formic acid, which is neutralized by mild bases like baking soda or calamine"
+        ],
+        "correct": 3,
+        "explanation": "An ant sting injects Formic acid (methanoic acid) into the skin, causing burning and inflammation. Moist baking soda (sodium hydrogen carbonate) or calamine lotion (containing zinc carbonate) are mild bases that neutralize the acid without harming your skin.",
+        "analogy": "If an ant attacks you with +10 Acid fire, you calm it down with -10 mild Base ice (baking soda) to reach 0 (Neutral)!"
+    },
+    {
+        "id": 8,
+        "lesson": 2,
+        "topic": "Soil Neutralization in Agriculture",
+        "quickDiagnostic": false,
+        "question": "After years of excessive chemical fertilizer use, a farmer tests his field's soil and finds that it has become overly acidic, stunting crop growth. What should he mix into the soil to restore its neutrality?",
+        "options": [
+            "Organic compost or decaying manure",
+            "Quicklime (calcium oxide) or slaked lime (calcium hydroxide)",
+            "Dilute vinegar or lemon extract",
+            "Pure distilled water and common salt"
+        ],
+        "correct": 1,
+        "explanation": "Since the soil is too acidic, the farmer must add a basic substance to neutralize it. Quicklime (calcium oxide) and slaked lime (calcium hydroxide) are bases used to neutralize acidic soil. Conversely, if soil is too basic, organic matter/compost is added because it releases acids as it decomposes.",
+        "analogy": "Acidic soil needs a Base medicine (Lime). Basic soil needs an Acid-releasing medicine (Organic Compost)!"
+    },
+    {
+        "id": 9,
+        "lesson": 2,
+        "topic": "Neutral Substances",
+        "quickDiagnostic": false,
+        "question": "A student tests four transparent liquids—Window cleaner, Sugar solution, Lime water, and Vinegar—with both red and blue litmus papers. Which of these liquids will cause NO colour change in either litmus paper?",
+        "options": [
+            "Window cleaner",
+            "Vinegar",
+            "Lime water",
+            "Sugar solution"
+        ],
+        "correct": 3,
+        "explanation": "Substances that are neither acidic nor basic are called Neutral substances, and they do not change the colour of red or blue litmus. Sugar solution, common salt solution, and pure distilled water are neutral. Window cleaner and lime water are basic, while vinegar is acidic.",
+        "analogy": "Sugar is sweet, not sour (acid) or soapy-bitter (base)—it sits peacefully in the middle at Neutral!"
+    },
+    {
+        "id": 10,
+        "lesson": 2,
+        "topic": "Factory Waste & Indigestion",
+        "quickDiagnostic": false,
+        "question": "Which statement accurately describes the role of neutralization in both human health (indigestion) and environmental protection (factory waste)?",
+        "options": [
+            "Antacids (like milk of magnesia) are mild bases that neutralize excess stomach acid, and basic substances are added to neutralize acidic factory waste before river discharge",
+            "Antacids are strong acids that digest food faster, and acidic chemicals are added to factory waste to kill bacteria",
+            "Both indigestion and factory waste are treated using neutral salt water",
+            "Stomach indigestion is caused by excess base, so doctors prescribe lemon juice"
+        ],
+        "correct": 0,
+        "explanation": "Our stomach produces hydrochloric acid for digestion, but excess acid causes pain/indigestion; we take an Antacid (like Milk of Magnesia = magnesium hydroxide, a mild base) to neutralize it. Similarly, acidic factory wastes are neutralized with bases like slaked lime so they don't kill fish and aquatic life.",
+        "analogy": "Notice the word 'Ant-acid' literally means 'Against Acid'—so an antacid must be a gentle Base!"
+    },
+    {
+        "id": 11,
+        "lesson": 3,
+        "topic": "Electric Cell Terminals",
+        "quickDiagnostic": false,
+        "question": "In a standard cylindrical dry electric cell used in torches and clocks, which parts represent the Positive (+) and Negative (–) terminals respectively?",
+        "options": [
+            "The flat metal disc is Positive (+), and the protruding metal cap is Negative (–)",
+            "The outer plastic wrapper is Positive (+), and the inner core is Negative (–)",
+            "The protruding small metal cap is Positive (+), and the flat metal disc at the bottom is Negative (–)",
+            "Both ends can act as Positive (+) depending on how the cell is held"
+        ],
+        "correct": 2,
+        "explanation": "Every electric cell has two terminals: the raised metal cap on one end is the Positive (+) terminal, and the flat metal disc on the opposite end is the Negative (–) terminal.",
+        "analogy": "Think of the raised metal cap as wearing a 'Plus (+) Crown' on its head, while the flat bottom is a flat minus (–) line!"
+    },
+    {
+        "id": 12,
+        "lesson": 3,
+        "topic": "Battery Connection (Series)",
+        "quickDiagnostic": true,
+        "question": "Meera wants to connect three electric cells together to form a powerful battery for her science project. How should the terminals of the cells be connected?",
+        "options": [
+            "All three positive (+) terminals tied together at one end, and wait for heat to build up",
+            "The negative (–) terminal of the first cell to the positive (+) terminal of the second cell, and so on",
+            "The positive (+) terminal of the first cell directly to the positive (+) terminal of the second cell",
+            "The cells should be separated by rubber washers between their terminals"
+        ],
+        "correct": 1,
+        "explanation": "A battery is a series combination of two or more cells where the Positive (+) terminal of one cell is connected to the Negative (–) terminal of the next cell. This allows all cells to push electric current in the same direction.",
+        "analogy": "Think of runners in a relay race passing the baton forward: Front (+) of Runner 1 hands off to Back (–) of Runner 2 so everyone pushes in the same direction!"
+    },
+    {
+        "id": 13,
+        "lesson": 3,
+        "topic": "Incandescent Lamp & Filament",
+        "quickDiagnostic": false,
+        "question": "Why does a 'fused' incandescent torch bulb fail to glow even when connected to a brand-new battery with a closed switch?",
+        "options": [
+            "Its thin filament is broken, creating an open gap that stops electric current from completing the circuit",
+            "Its glass chamber has turned into an electrical conductor",
+            "The battery's positive and negative terminals were reversed",
+            "Incandescent bulbs only glow when connected in open circuits"
+        ],
+        "correct": 0,
+        "explanation": "Inside an incandescent bulb is a thin wire called the filament, which glows when electric current heats it up. If the filament breaks ('fused' bulb), the conducting path is broken (an open circuit), so current cannot flow through the bulb.",
+        "analogy": "The filament is the narrow suspension bridge inside the glass bulb. If that bridge snaps in the middle, no traffic (current) can cross!"
+    },
+    {
+        "id": 14,
+        "lesson": 3,
+        "topic": "LED Polarity & Leads",
+        "quickDiagnostic": true,
+        "question": "Arjun connects an LED (Light Emitting Diode) to a cell and notices it does not glow, even though the cell and wires are working fine. How do the two wire leads of an LED must be connected for it to glow?",
+        "options": [
+            "An LED requires its filament to be heated by a matchstick first",
+            "The shorter lead must be connected to the Positive (+) terminal, and the longer lead to the Negative (–) terminal",
+            "Both leads must be connected to the Positive (+) terminal simultaneously",
+            "The longer lead must be connected to the Positive (+) terminal of the cell, and the shorter lead to the Negative (–) terminal"
+        ],
+        "correct": 3,
+        "explanation": "Unlike an incandescent lamp (which glows regardless of polarity), an LED has no filament and allows electric current to flow in ONLY ONE direction. Its longer wire lead is always Positive (+) and must connect to the cell's positive terminal, while the shorter lead is Negative (–).",
+        "analogy": "Memory trick: 'Plus (+) takes two strokes of the pen, so it's LONGER; Minus (–) takes only one stroke, so it's SHORTER!'"
+    },
+    {
+        "id": 15,
+        "lesson": 3,
+        "topic": "LED Circuit Symbol",
+        "quickDiagnostic": false,
+        "question": "In standard circuit diagrams, the symbol for an LED consists of a triangle touching a vertical line with two small arrows pointing outward. What do the triangle and the two outward arrows represent?",
+        "options": [
+            "The triangle points from negative to positive, and the arrows show heat entering the diode",
+            "The triangle points in the direction of electric current flow (+ to –), and the outward arrows show that light is emitted",
+            "The triangle means danger, and the arrows show wire thickness",
+            "The triangle represents a filament, and the arrows represent magnetic field lines"
+        ],
+        "correct": 1,
+        "explanation": "In an LED symbol, the triangle acts like a directional arrowhead pointing in the direction that conventional current is allowed to flow (from Positive + to Negative –), and the two little arrows pointing away from the symbol indicate that it emits light when current flows.",
+        "analogy": "The triangle is literally a 'One-Way Street' arrow showing which way the current marches, while the two mini arrows are light rays shining out!"
+    },
+    {
+        "id": 16,
+        "lesson": 3,
+        "topic": "Switch & Open/Closed Circuit",
+        "quickDiagnostic": false,
+        "question": "When an electric switch made using a safety pin and two drawing pins is in the 'OFF' position (the safety pin does not touch the second drawing pin), why doesn't the bulb glow?",
+        "options": [
+            "The circuit is 'Closed', trapping all the electricity inside the safety pin",
+            "Steel safety pins are insulators of electricity",
+            "The circuit is 'Open', and the air gap between the safety pin and drawing pin acts as an electrical insulator",
+            "Current flows from the negative terminal and stops at the bulb first"
+        ],
+        "correct": 2,
+        "explanation": "When the safety pin doesn't touch the second drawing pin, there is an air gap in the path. Since air is an electrical insulator under normal conditions, the circuit is incomplete ('Open circuit'), and no current flows anywhere in the loop.",
+        "analogy": "A switch is just a drawbridge over a river. 'Open' switch = drawbridge raised up (cars can't cross!); 'Closed' switch = drawbridge lowered flat (cars drive across!)."
+    },
+    {
+        "id": 17,
+        "lesson": 3,
+        "topic": "Conductors vs Insulators",
+        "quickDiagnostic": true,
+        "question": "A student builds a conduction tester with a cell, an LED, and two free wire ends. Which set of everyday objects, when placed one by one between the free wire ends, will ALL make the LED glow?",
+        "options": [
+            "Metal key, plastic scale, wooden toothpick, and rubber eraser",
+            "Rubber band, paper strip, plastic straw, and wooden pencil body",
+            "Glass bangle, wax candle, aluminium foil, and cotton thread",
+            "Metal key, sewing needle, aluminium foil strip, and copper coin"
+        ],
+        "correct": 3,
+        "explanation": "For the LED to glow, the object must be an electrical conductor (allowing current to pass). Metals like a steel/brass key, iron sewing needle, aluminium foil, and copper coin are all conductors. Plastic, wood, rubber, glass, wax, and cotton are insulators.",
+        "analogy": "Metals are VIP highways for electrons; plastic, rubber, wood, and glass are roadblocks!"
+    },
+    {
+        "id": 18,
+        "lesson": 3,
+        "topic": "Role of Both Conductors & Insulators",
+        "quickDiagnostic": false,
+        "question": "Why do electricians use screwdrivers and pliers that have strong steel blades/jaws covered with thick plastic or rubber handles?",
+        "options": [
+            "Plastic conducts electricity better than steel, making the tool work faster",
+            "Steel is a conductor needed for mechanical strength and circuit contact, while plastic/rubber is an insulator that prevents electric current from flowing into the electrician's body",
+            "Rubber handles generate electricity for the screwdriver tip",
+            "Steel is an insulator and plastic is a conductor"
+        ],
+        "correct": 1,
+        "explanation": "Both conductors and insulators are essential! Metals conduct electricity (and provide strength), while insulators like rubber and plastic block electric current from passing into our bodies (which are conductors!), protecting us from severe electric shocks.",
+        "analogy": "Think of holding a hot cup of tea with a cloth mitten: the metal wire carries the energy inside, while the plastic coat acts as the safety glove keeping you safe!"
+    },
+    {
+        "id": 19,
+        "lesson": 3,
+        "topic": "Direction of Conventional Current",
+        "quickDiagnostic": false,
+        "question": "In a closed electric circuit consisting of a cell, connecting wires, and a glowing lamp, what is the standard direction of electric current flow outside the cell?",
+        "options": [
+            "From the positive (+) terminal of the cell, through the wires and lamp, to the negative (–) terminal",
+            "From both terminals simultaneously toward the middle of the lamp where they collide",
+            "Current only stays inside the switch and sends wireless signals to the lamp",
+            "From the negative (–) terminal of the cell to the positive (+) terminal"
+        ],
+        "correct": 0,
+        "explanation": "By scientific convention, electric current in a closed circuit is taken to flow from the Positive (+) terminal of the cell or battery, through the circuit components (switch, lamp/LED), and back into the Negative (–) terminal.",
+        "analogy": "Just like water flows from High Pressure (+) down to Low Pressure (–), conventional current always marches from + to –!"
+    },
+    {
+        "id": 20,
+        "lesson": 3,
+        "topic": "Circuit Symbols",
+        "quickDiagnostic": false,
+        "question": "In the standard circuit symbol for an electric cell (consisting of two parallel vertical lines of unequal length), what do the two lines represent?",
+        "options": [
+            "The shorter, thicker line represents the Positive (+) terminal, and the longer line represents the Negative (–) terminal",
+            "Both lines represent negative terminals, while the connecting wire is positive",
+            "The longer, thinner vertical line represents the Positive (+) terminal, and the shorter, thicker line represents the Negative (–) terminal",
+            "The two lines represent an open switch"
+        ],
+        "correct": 2,
+        "explanation": "In the standard circuit diagram symbol of a cell, the longer thin line stands for the Positive (+) terminal, and the parallel shorter, thicker line stands for the Negative (–) terminal. When drawing a battery, multiple such pairs are drawn alternating long-short-long-short.",
+        "analogy": "Just like with LED leads: Long line = Positive (+), Short thick line = Negative (–)!"
+    },
+    {
+        "id": 21,
+        "lesson": 4,
+        "topic": "Malleability vs Brittleness",
+        "quickDiagnostic": true,
+        "question": "Why can aluminium and silver be beaten into ultra-thin foils used for wrapping food and decorating sweets, whereas a piece of coal or sulfur crumbles into powder when struck with a hammer?",
+        "options": [
+            "Aluminium and silver are ductile non-metals, while coal is a sonorous metal",
+            "Aluminium and silver are metals possessing 'malleability', whereas coal and sulfur are 'brittle' non-metals",
+            "Coal and sulfur melt into liquids when hit with a hammer",
+            "Aluminium foil is actually made from plastic coated with silver paint"
+        ],
+        "correct": 1,
+        "explanation": "The property by which metals can be beaten into thin sheets without breaking is called Malleability (gold, silver, aluminium, copper, and iron are malleable). Non-metals like coal and sulfur are Brittle—they shatter into pieces when hammered.",
+        "analogy": "Mallet (hammer) → Malleable! Metals flatten like dough under a rolling pin; brittle non-metals shatter like dry papad!"
+    },
+    {
+        "id": 22,
+        "lesson": 4,
+        "topic": "Ductility & Sonority",
+        "quickDiagnostic": false,
+        "question": "Just 1 gram of gold can be drawn into a thin wire nearly 2 kilometres long, and temple/school bells are made of metal alloys rather than wood. Which two metallic properties do these facts illustrate respectively?",
+        "options": [
+            "Thermal insulation and Ductility",
+            "Malleability and Brittleness",
+            "Lustre and Corrosion",
+            "Ductility (drawn into wires) and Sonority (producing a deep ringing sound when struck)"
+        ],
+        "correct": 3,
+        "explanation": "Ductility is the ability of metals to be drawn into thin wires (gold and silver are the most ductile metals; copper and aluminium wires are used in cables). Sonority is the property of producing a deep ringing sound when struck (non-metals like wood produce only a dull thud).",
+        "analogy": "Ductile = Drawn into wires; Sonorous = Sound (like 'Sonar' or a ringing bell)!"
+    },
+    {
+        "id": 23,
+        "lesson": 4,
+        "topic": "Exceptions in Metals",
+        "quickDiagnostic": true,
+        "question": "Most metals are hard solids at room temperature that require heavy tools to cut. Which of the following correctly identifies the famous metallic exceptions mentioned in your textbook?",
+        "options": [
+            "Iron and copper are soft enough to cut with a knife, and Gold is liquid at room temperature",
+            "Sulfur and phosphorus are liquid metals used in thermometers",
+            "Sodium and potassium are metals so soft they can be cut with a knife, and Mercury is a metal that exists as a liquid at room temperature",
+            "Aluminium is a gas at room temperature and coal is a soft metal"
+        ],
+        "correct": 2,
+        "explanation": "While metals like iron and copper are hard solids, Sodium and Potassium are exceptions—they are so soft (like firm paneer or wax) that they can be cut with a knife! Mercury is the only metal that is in a liquid state at room temperature (used in clinical thermometers).",
+        "analogy": "Even the 'Tough Metal Club' has rebels: Sodium & Potassium are softies (cut with a knife), and Mercury refuses to freeze at room temperature!"
+    },
+    {
+        "id": 24,
+        "lesson": 4,
+        "topic": "Storage of Phosphorus",
+        "quickDiagnostic": false,
+        "question": "Why is phosphorus—a non-metal—always stored submerged under water in chemical laboratories rather than kept in an open jar?",
+        "options": [
+            "Phosphorus is a highly reactive non-metal that catches fire spontaneously when exposed to oxygen in air, but does not react with water",
+            "Phosphorus dissolves in water to form a sweet-smelling perfume",
+            "Phosphorus melts into a gas if it isn't cooled by water",
+            "Water makes phosphorus malleable so it can be beaten into sheets"
+        ],
+        "correct": 0,
+        "explanation": "Phosphorus is a very reactive non-metal. If left exposed to atmospheric air, it reacts rapidly with oxygen and catches fire at room temperature! To prevent contact with atmospheric oxygen, it is stored safely under water.",
+        "analogy": "Water acts like an airtight security blanket hiding phosphorus from its arch-enemy, Oxygen in the air!"
+    },
+    {
+        "id": 25,
+        "lesson": 4,
+        "topic": "Nature of Metal Oxides",
+        "quickDiagnostic": true,
+        "question": "When a magnesium ribbon is burned in air, it produces a dazzling white ash (magnesium oxide). When this ash is dissolved in water and tested with red and blue litmus papers, what happens and what does it prove?",
+        "options": [
+            "Blue litmus turns red, proving that oxides of metals are ACIDIC in nature",
+            "Neither litmus changes colour, proving metal oxides are always neutral",
+            "Red litmus turns blue, proving that oxides of metals are generally BASIC in nature",
+            "Both litmus papers turn black because magnesium is a non-metal"
+        ],
+        "correct": 2,
+        "explanation": "Magnesium (a metal) reacts with oxygen to form Magnesium Oxide. When dissolved in water, it forms magnesium hydroxide, which turns Red litmus paper Blue. This demonstrates a core rule: Oxides of metals are generally BASIC in nature!",
+        "analogy": "Remember the golden pair: **M-B** (Metal oxides = Basic, turning Red litmus Blue)!"
+    },
+    {
+        "id": 26,
+        "lesson": 4,
+        "topic": "Nature of Non-metal Oxides",
+        "quickDiagnostic": false,
+        "question": "When powdered sulfur is burned in a deflagrating spoon inside a gas jar and the resulting gas (sulfur dioxide) is shaken with water, how will this solution react with litmus paper?",
+        "options": [
+            "It turns blue litmus paper red, showing that oxides of non-metals are ACIDIC in nature",
+            "It turns red litmus paper blue, showing that oxides of non-metals are BASIC in nature",
+            "It turns turmeric paper bright red",
+            "It has no effect on any indicator because sulfur is an inert gas"
+        ],
+        "correct": 0,
+        "explanation": "Sulfur is a non-metal. When it burns in oxygen, it forms Sulfur Dioxide gas. Dissolving this gas in water produces sulfurous acid, which turns Blue litmus paper Red. Thus, oxides of non-metals are generally ACIDIC in nature!",
+        "analogy": "Contrast with metals: Metal Oxides = Basic; Non-metal Oxides (like Sulfur dioxide or Carbon dioxide) = Acidic!"
+    },
+    {
+        "id": 27,
+        "lesson": 4,
+        "topic": "Conditions for Rusting of Iron",
+        "quickDiagnostic": false,
+        "question": "In the classic three-test-tube experiment on rusting of iron nails: Tube A has water + air; Tube B has boiled distilled water topped with oil (no air); Tube C has dry calcium chloride (dry air, no water). Which iron nail(s) will develop brown rust?",
+        "options": [
+            "Only the nail in Tube B, because oil accelerates rusting",
+            "Only the nail in Tube A, because rusting of iron requires the simultaneous presence of BOTH oxygen (air) and water (moisture)",
+            "All three nails will rust equally because iron rusts spontaneously on its own",
+            "Only the nail in Tube C, because calcium chloride reacts with iron to make rust"
+        ],
+        "correct": 1,
+        "explanation": "Rusting of iron is a chemical reaction where iron reacts with BOTH oxygen (from air) and water/moisture to form brown flaky iron oxide (rust). In Tube B there is no dissolved air, and in Tube C calcium chloride absorbs all moisture—so only Tube A has both ingredients!",
+        "analogy": "Rusting requires a 'Two-Key Lock': Key 1 is Oxygen (air) and Key 2 is Water (moisture). If even one key is missing, the lock stays shut and iron cannot rust!"
+    },
+    {
+        "id": 28,
+        "lesson": 4,
+        "topic": "Corrosion & Prevention",
+        "quickDiagnostic": false,
+        "question": "Over time, copper vessels develop a greenish coating, silver ornaments turn blackish, and iron bridges develop brown flaky rust. What is this general process called, and how can iron be protected from it?",
+        "options": [
+            "It is called Malleability; iron is protected by soaking it in salt water",
+            "It is called Combustion; iron is protected by rubbing it with lemon juice",
+            "It is called Sonority; metals change colour to conduct electricity better",
+            "It is called Corrosion; iron can be protected by painting, oiling, greasing, or coating with zinc (galvanization)"
+        ],
+        "correct": 3,
+        "explanation": "Gradual deterioration of metal surfaces due to reaction with air, moisture, or gases in the atmosphere is called Corrosion (in iron, it is specifically called rusting). Coating iron with paint, grease, oil, or a layer of zinc metal (galvanization) blocks air and moisture from touching the iron.",
+        "analogy": "Paint, grease, and zinc act like a waterproof raincoat for iron—if air and rain can't touch the iron skin, rust can't form!"
+    },
+    {
+        "id": 29,
+        "lesson": 4,
+        "topic": "Elements vs Everyday Materials",
+        "quickDiagnostic": false,
+        "question": "Scientists have identified 118 pure substances called 'Elements' (consisting of metals and non-metals) that cannot be broken down into simpler substances by chemical reactions. Which of the following lists contains ONLY elements?",
+        "options": [
+            "Iron, Gold, Oxygen, Carbon, and Sulfur",
+            "Iron, Plastic, Wood, Glass, and Copper",
+            "Water, Air, Soil, Steel, and Paper",
+            "Aluminium, Brass, Tea, Sugar, and Nitrogen"
+        ],
+        "correct": 0,
+        "explanation": "Elements are pure fundamental building blocks of matter (like Iron, Gold, Copper, Aluminium, Oxygen, Nitrogen, Carbon, Sulfur). Everyday materials like plastic, wood, glass, paper, water, sugar, and steel/brass (alloys/mixtures) are made by combining multiple elements and are NOT elements themselves.",
+        "analogy": "Elements are the 118 letters of the Universe's alphabet (Fe, Au, O, C, S). Materials like plastic, wood, and water are whole words spelled by combining letters!"
+    },
+    {
+        "id": 30,
+        "lesson": 4,
+        "topic": "Non-metals in Living Beings",
+        "quickDiagnostic": false,
+        "question": "Although non-metals are poor conductors and not malleable, they are indispensable for life. Which non-metal is essential for breathing and combustion, and which non-metal forms the backbone of proteins, carbohydrates, and fats in all living organisms?",
+        "options": [
+            "Chlorine is used for breathing, and Sodium forms the backbone of proteins",
+            "Mercury is used for breathing, and Aluminium forms carbohydrates",
+            "Oxygen is essential for breathing/combustion, and Carbon forms the backbone of food molecules in living beings",
+            "Iron is a non-metal used for breathing, and Gold forms fats"
+        ],
+        "correct": 2,
+        "explanation": "Oxygen is a life-sustaining non-metal gas required for cellular respiration (breathing) and combustion. Carbon is a fundamental non-metal present in all organic molecules (proteins, fats, carbohydrates, vitamins, DNA) that make up plants and animals.",
+        "analogy": "Metals build our bridges and machines, while Non-metals (Carbon, Oxygen, Nitrogen, Hydrogen) build OUR living bodies and the air we breathe!"
+    },
+    {
+        "id": 31,
+        "lesson": 5,
+        "topic": "Physical vs Chemical Change Core",
+        "quickDiagnostic": true,
+        "question": "What is the single most fundamental scientific criterion that distinguishes a 'Chemical Change' from a 'Physical Change'?",
+        "options": [
+            "Physical changes only happen in solids, whereas chemical changes only happen in liquids",
+            "All physical changes require heat, whereas chemical changes never involve heat",
+            "In a physical change, the weight of the object doubles",
+            "In a chemical change, one or more NEW substances with entirely different properties are formed, whereas in a physical change no new substance is formed"
+        ],
+        "correct": 3,
+        "explanation": "A Physical change only alters physical properties like shape, size, or physical state (solid/liquid/gas) without changing the substance's chemical identity. A Chemical change involves a chemical reaction that produces one or more brand-new substances.",
+        "analogy": "Physical change = Same actor wearing a different costume (ice → water → steam). Chemical change = A totally new character is born (milk → curd)!"
+    },
+    {
+        "id": 32,
+        "lesson": 5,
+        "topic": "Identifying Chemical Changes",
+        "quickDiagnostic": false,
+        "question": "Which of the following groups consists EXCLUSIVELY of chemical changes?",
+        "options": [
+            "Melting of ice cubes, tearing a sheet of paper, boiling water, and crushing chalk",
+            "Rusting of an iron lock, ripening of a mango, curdling of milk, and burning of magnesium ribbon",
+            "Folding paper into an aeroplane, stretching a rubber band, and drying wet clothes",
+            "Dissolving sugar in water, chopping vegetables, and freezing water into ice"
+        ],
+        "correct": 1,
+        "explanation": "Rusting forms a new substance (iron oxide), ripening changes raw starch/acids into sweet sugars and aroma compounds, curdling turns milk lactose into lactic acid/curd, and burning magnesium forms magnesium oxide. All four create new substances!",
+        "analogy": "Ask yourself: 'Has the molecule's identity changed?' Rust is not iron, curd is not milk, and ripe sweet mango has new sugar molecules!"
+    },
+    {
+        "id": 33,
+        "lesson": 5,
+        "topic": "Baking Soda + Vinegar Reaction",
+        "quickDiagnostic": false,
+        "question": "When a pinch of baking soda is added to vinegar in a test tube, brisk effervescence (bubbling) occurs. When this evolved gas is passed through freshly prepared lime water, the lime water turns milky. Identify the gas and the type of change.",
+        "options": [
+            "Oxygen gas is evolved; it is purely a physical change like boiling water",
+            "Nitrogen gas is evolved; no new substance is formed",
+            "Hydrogen gas is evolved; lime water turns milky due to freezing",
+            "Carbon dioxide (CO₂) gas is evolved; both the vinegar-baking soda reaction and the turning of lime water milky are chemical changes"
+        ],
+        "correct": 3,
+        "explanation": "Vinegar (acetic acid) reacts chemically with baking soda (sodium hydrogen carbonate) to form a new gas: Carbon dioxide (CO₂). When CO₂ passes through lime water (calcium hydroxide), it reacts chemically to form insoluble white particles of Calcium Carbonate, turning the lime water milky!",
+        "analogy": "Lime water turning milky is the ultimate 'fingerprint detective test' for Carbon Dioxide (CO₂)—the white cloud is brand-new chalk (calcium carbonate) forming in the water!"
+    },
+    {
+        "id": 34,
+        "lesson": 5,
+        "topic": "Burning of a Candle (Both Changes)",
+        "quickDiagnostic": true,
+        "question": "Why is a burning wax candle considered a classic example that demonstrates BOTH physical and chemical changes happening at the same time?",
+        "options": [
+            "The cotton wick melting is a physical change, and the wax freezing is a chemical change",
+            "Lighting the matchstick is a physical change, and blowing out the candle is a chemical change",
+            "Melting of solid wax into liquid wax (and its solidification on cooling) is a physical change, while the burning of wax vapour near the wick to produce CO₂, water vapour, heat, and light is a chemical change",
+            "Only the colour of the candle changes physically while its shape changes chemically"
+        ],
+        "correct": 2,
+        "explanation": "When heat melts solid wax into liquid wax that drips down and solidifies again, no new substance is formed—that is a Physical change. Meanwhile, liquid wax drawn up the wick vaporizes and reacts with oxygen (burns) to form new substances (carbon dioxide, soot, water vapour) with heat and light—a Chemical change!",
+        "analogy": "Drip & Freeze = Physical change (wax is still wax). Flame & Smoke = Chemical change (wax turns into invisible gases and light)!"
+    },
+    {
+        "id": 35,
+        "lesson": 5,
+        "topic": "Combustion & Ignition Temperature",
+        "quickDiagnostic": true,
+        "question": "A piece of dry paper and a log of wood are both combustible substances surrounded by oxygen in your room, yet neither catches fire on its own. Why does a lighted matchstick set the paper on fire immediately, but cannot ignite a thick log of wood right away?",
+        "options": [
+            "A substance catches fire only when heated to its 'ignition temperature'; thin paper reaches its ignition temperature quickly, whereas a thick wood log requires much more heat to reach its ignition temperature",
+            "Wood is a non-combustible substance like stone or glass",
+            "Ignition temperature is the highest temperature at which a substance freezes",
+            "Paper contains oxygen inside it, whereas wood does not react with oxygen"
+        ],
+        "correct": 0,
+        "explanation": "The lowest temperature at which a substance catches fire is called its Ignition Temperature. Even with fuel and oxygen present, combustion cannot start until the fuel is heated to its ignition temperature. Paper needs very little heat to reach this point, while a heavy wood log absorbs and spreads out heat.",
+        "analogy": "Think of Ignition Temperature as the 'Minimum Ticket Price' to start a fire. A tiny matchstick has enough pocket change for thin paper, but not enough to heat up a giant wooden log!"
+    },
+    {
+        "id": 36,
+        "lesson": 5,
+        "topic": "Fire Triangle & Safety",
+        "quickDiagnostic": false,
+        "question": "If a person's clothes accidentally catch fire, why do safety experts advise wrapping a thick woollen blanket around them, and strictly warn AGAINST using a synthetic (nylon/polyester) blanket?",
+        "options": [
+            "Woollen blankets release carbon dioxide gas chemically, while synthetic blankets release oxygen",
+            "A thick woollen blanket cuts off the supply of air (oxygen) to extinguish the fire, whereas a synthetic blanket catches fire easily and melts onto the skin causing severe burns",
+            "Woollen blankets raise the ignition temperature of the skin",
+            "Synthetic blankets are too heavy to wrap around a person"
+        ],
+        "correct": 1,
+        "explanation": "Fire needs three things: Fuel, Oxygen (air), and Heat. Wrapping a thick woollen blanket seals off atmospheric oxygen, starving and extinguishing the fire. Synthetic fabrics melt when heated and stick to the skin, worsening the burns.",
+        "analogy": "Break any leg of the 3-legged Fire Stool (Fuel, Oxygen, Heat) and the fire collapses! The woollen blanket kicks away the Oxygen leg."
+    },
+    {
+        "id": 37,
+        "lesson": 5,
+        "topic": "Paper Cup Boiling Water Experiment",
+        "quickDiagnostic": false,
+        "question": "In a classroom activity, a student heats water inside a thin paper cup held over a candle flame. Remarkably, the water heats up and even boils, while the paper cup does NOT burn! Why?",
+        "options": [
+            "Water chemically reacts with paper to turn it into a metal",
+            "Candle flames are cold in the middle and cannot burn paper",
+            "The heat supplied to the paper cup is rapidly transferred to the water inside by conduction, preventing the paper from reaching its ignition temperature",
+            "Boiling water removes all oxygen from the room around the cup"
+        ],
+        "correct": 2,
+        "explanation": "As long as there is liquid water inside the paper cup, the water absorbs the heat from the paper right away. Because the paper's temperature stays near 100°C (well below paper's ignition temperature of ~230°C), the paper cup cannot catch fire!",
+        "analogy": "Water acts like a greedy heat-sponge sitting inside the cup—stealing all the heat before the paper can get hot enough to catch fire!"
+    },
+    {
+        "id": 38,
+        "lesson": 5,
+        "topic": "Bioluminescence in Fireflies",
+        "quickDiagnostic": false,
+        "question": "Fireflies (jugnu) glow with flashes of light on warm summer nights without burning themselves. What kind of change produces this light?",
+        "options": [
+            "A physical change where fireflies store sunlight in mirrors on their wings",
+            "A chemical change inside the firefly's body (bioluminescence) that produces light energy WITHOUT producing heat",
+            "High-temperature combustion of wax inside their abdomen",
+            "An electric cell and tungsten filament glowing inside the insect"
+        ],
+        "correct": 1,
+        "explanation": "Not all chemical reactions that produce light produce intense heat! Fireflies emit light through a specialized chemical reaction in their abdomen (involving oxygen and luciferin) called Bioluminescence—a chemical change that releases cold light.",
+        "analogy": "A firefly is nature's chemical glow-stick—mixing molecules to make pure light without any flame!"
+    },
+    {
+        "id": 39,
+        "lesson": 5,
+        "topic": "Weathering of Rocks",
+        "quickDiagnostic": false,
+        "question": "Over thousands of years, large rocks break down into soil through 'Weathering'. Why do dark basalt rocks containing iron often develop a reddish-brown surface layer during weathering?",
+        "options": [
+            "It is purely physical weathering: sunlight paints the rock red without forming any new substance",
+            "Tree roots secrete red litmus dye onto the basalt rock",
+            "Wind erosion melts the rock into red lava",
+            "It is chemical weathering: the iron present in the basalt rock reacts with atmospheric oxygen and water to form red-coloured iron oxide"
+        ],
+        "correct": 3,
+        "explanation": "Weathering involves BOTH physical changes (cracking due to day/night temperature changes, freezing water, or growing plant roots) AND chemical changes. When iron minerals inside basalt rock react with water and air over centuries, they chemically transform into red iron oxide!",
+        "analogy": "Even mountains 'rust'! The red soil formed from dark basalt rock is nature's slow-motion chemical change."
+    },
+    {
+        "id": 40,
+        "lesson": 5,
+        "topic": "Erosion & Reversibility",
+        "quickDiagnostic": false,
+        "question": "Flowing river water and wind carry broken rock fragments, sand, and pebbles from mountains down to plains (Erosion), smoothing pebbles along the way. What type of change is erosion, and are all physical changes easily reversible?",
+        "options": [
+            "Erosion is a physical change (location and size/shape of rock change, no new substance formed), and NOT all physical changes are easily reversible (e.g., chopping wood or breaking a rock)",
+            "Erosion is a combustion reaction caused by friction in river water",
+            "Erosion is a chemical change because pebbles become round, and all physical changes are 100% reversible",
+            "Every chemical change is easily reversible by cooling"
+        ],
+        "correct": 0,
+        "explanation": "During erosion and pebble-smoothing, rock is still rock—no new chemical substance is formed, so it is a Physical change. It also busts a common myth: while melting ice is a reversible physical change, tearing paper, chopping vegetables, or eroding a boulder are physical changes that cannot be easily reversed!",
+        "analogy": "Don't fall for the trap that 'Physical = Always Reversible'! If you smash a glass cup or chop a carrot, no new chemical is made (Physical change), yet you can't easily un-chop the carrot!"
+    },
+    {
+        "id": 41,
+        "lesson": 6,
+        "topic": "Adolescence & Puberty Period",
+        "quickDiagnostic": false,
+        "question": "According to standard health and science definitions in your NCERT textbook, what is 'Adolescence' and what age group does it generally cover?",
+        "options": [
+            "The stage of infancy from birth to 5 years of age",
+            "The period of transition from childhood to adulthood marked by rapid physical, emotional, and reproductive growth, generally spanning ages 10 to 19 years",
+            "The period of old age starting after 60 years",
+            "A sudden illness that affects only boys between ages 15 and 16"
+        ],
+        "correct": 1,
+        "explanation": "Adolescence is the rapid developmental bridge between childhood and adulthood, typically covering ages 10 to 19 years (which includes the 'teenage' years 13 to 19). During this stage, the body undergoes Puberty, reaching reproductive maturity.",
+        "analogy": "Adolescence (10–19) is the bridge connecting Childhood Island to Adulthood Mainland!"
+    },
+    {
+        "id": 42,
+        "lesson": 6,
+        "topic": "Voice Box (Larynx) & Adam's Apple",
+        "quickDiagnostic": true,
+        "question": "During puberty, many adolescent boys experience a temporary cracking or hoarseness in their voice before it becomes permanently deeper, accompanied by a visible bump in the front of the throat. What causes this?",
+        "options": [
+            "The voice box (larynx) grows significantly larger during puberty; in boys, this enlarged larynx protrudes in the throat as the 'Adam's apple' and results in a deeper voice",
+            "Boys develop a second windpipe in their throat during teenage years",
+            "Drinking cold water causes the throat bones to swell permanently",
+            "The thyroid gland turns into cartilage due to lack of calcium"
+        ],
+        "correct": 0,
+        "explanation": "At puberty, the voice box (larynx) begins to grow in both boys and girls. In boys, it grows much larger and can be seen as a protruding bump in the front of the neck called the Adam's apple. As the vocal cords lengthen and muscles adjust, the voice may briefly crack before settling into a deep pitch.",
+        "analogy": "Think of musical instruments: a small violin has a high-pitched voice, while a larger cello has a deep, resonant voice. As the larynx (sound-box) grows bigger, the voice naturally deepens!"
+    },
+    {
+        "id": 43,
+        "lesson": 6,
+        "topic": "Sweat & Sebaceous Glands (Acne)",
+        "quickDiagnostic": false,
+        "question": "Why do many adolescents develop acne and pimples on their face during puberty, and what is the scientifically recommended way to care for the skin?",
+        "options": [
+            "Pimples are caused by reading books in dim light; one should squeeze them with sharp fingernails",
+            "Oil glands shrink during puberty; one should apply heavy grease to the face",
+            "Increased activity of sweat glands and sebaceous (oil) glands clogs skin pores; one should wash the face gently with mild soap and water and avoid popping or scratching pimples",
+            "Acne only occurs if a teenager drinks too much pure water"
+        ],
+        "correct": 2,
+        "explanation": "During adolescence, sweat glands and sebaceous (oil-secreting) glands become much more active. Excess oil and dead skin cells can clog pores, allowing bacteria to cause redness and pimples (acne). Washing regularly with mild soap and water helps, whereas popping pimples causes deeper infection and scars.",
+        "analogy": "Your skin's oil glands are simply working overtime during the puberty upgrade—keep the pores clean with gentle washing rather than picking at them!"
+    },
+    {
+        "id": 44,
+        "lesson": 6,
+        "topic": "Role of Hormones",
+        "quickDiagnostic": true,
+        "question": "What are the invisible 'chemical messengers' produced inside the human body that initiate and regulate the physical, reproductive, and emotional changes of puberty?",
+        "options": [
+            "Digestive enzymes in saliva",
+            "Antibiotics in blood",
+            "Acid-base indicators",
+            "Hormones"
+        ],
+        "correct": 3,
+        "explanation": "Hormones are specialized chemical substances secreted by endocrine glands inside the body. They travel through the bloodstream to target organs, acting as chemical messengers that trigger growth spurts, secondary sexual characteristics, and reproductive maturation during adolescence.",
+        "analogy": "Hormones are your body's internal WhatsApp broadcast messages—sent by glands through the bloodstream to tell bones, voice box, and organs: 'Time to grow!'"
+    },
+    {
+        "id": 45,
+        "lesson": 6,
+        "topic": "Individual Variations in Growth",
+        "quickDiagnostic": false,
+        "question": "Two 13-year-old classmates, Kabir and Dev, notice that Kabir has already grown tall with faint facial hair, while Dev has not yet had his height spurt or voice change. Which scientific conclusion is correct?",
+        "options": [
+            "Both are completely normal; the timing, pace, and extent of puberty changes vary naturally from person to person",
+            "Dev has a permanent genetic disease because every human must finish puberty at age 12",
+            "Kabir is growing too fast and should stop eating proteins immediately",
+            "Boys only grow in height after age 21"
+        ],
+        "correct": 0,
+        "explanation": "Just as different flowers in a garden bloom in different weeks, every adolescent's biological clock is unique! The age at which growth spurts, facial/body hair, or voice changes begin—and how fast they progress—varies naturally among healthy individuals.",
+        "analogy": "Puberty isn't a 100-metre race where everyone starts at the exact same whistle—everyone reaches adulthood at their own body's healthy timetable!"
+    },
+    {
+        "id": 46,
+        "lesson": 6,
+        "topic": "Nutritional Needs & Iron (Anaemia)",
+        "quickDiagnostic": true,
+        "question": "Why is it especially crucial for adolescents (particularly adolescent girls) to include iron-rich foods like spinach, jaggery (gur), amla, dates, and pulses in their daily diet alongside calcium and proteins?",
+        "options": [
+            "Chip packets and aerated soft drinks already contain sufficient iron and calcium",
+            "Iron makes bones malleable so they can bend like wires",
+            "Iron neutralizes stomach acid like an antacid",
+            "Iron is essential for building haemoglobin in red blood cells to prevent iron-deficiency anaemia and support rapid growth and blood replenishment during menstruation"
+        ],
+        "correct": 3,
+        "explanation": "During adolescence, blood volume increases rapidly (and girls lose blood monthly during menstruation). Iron is required to form haemoglobin in red blood cells, which carries oxygen throughout the body. Lack of iron causes Anaemia (weakness, fatigue, pale skin). Vitamin C (in amla/lemon) also helps the body absorb iron!",
+        "analogy": "Proteins are the bricks (muscles), Calcium is the concrete pillars (bones), and Iron builds the oxygen delivery trucks (haemoglobin in blood)!"
+    },
+    {
+        "id": 47,
+        "lesson": 6,
+        "topic": "Menstruation & Menstrual Hygiene",
+        "quickDiagnostic": false,
+        "question": "Which of the following statements promotes a scientifically accurate and healthy attitude toward menstruation in adolescent girls?",
+        "options": [
+            "Menstruation is an infectious disease and girls should be isolated from school during periods",
+            "Menstruation is a natural, healthy biological process; using clean sanitary pads, changing them regularly, wrapping used pads properly before disposal in a bin, and society breaking myths/taboos are essential",
+            "Physical hygiene is not needed during the menstrual cycle",
+            "Used sanitary pads should be flushed down the toilet drain to block pipes"
+        ],
+        "correct": 1,
+        "explanation": "Menstruation is a completely normal biological cycle marking reproductive health in adolescent girls and women. Maintaining menstrual hygiene (using clean sanitary pads or cloth pads, washing with soap and water, and disposing of wrapped pads in dustbins—never flushing them) prevents infections, and empathy/awareness removes outdated social taboos.",
+        "analogy": "Science replaces superstition with respect and hygiene: menstruation is a vital sign of biological health, never something to be ashamed of!"
+    },
+    {
+        "id": 48,
+        "lesson": 6,
+        "topic": "Emotional & Behavioural Changes",
+        "quickDiagnostic": false,
+        "question": "During adolescence, teenagers often experience heightened sensitivity, mood swings, self-consciousness, and strong curiosity. What is the healthiest way to navigate these emotional changes?",
+        "options": [
+            "Suppressing all feelings and avoiding talking to family or teachers",
+            "Bullying classmates who look or grow differently",
+            "Open communication with trusted parents/teachers, engaging in sports or creative hobbies, practising empathy toward peers, and recognizing mood swings as a normal part of brain and hormonal development",
+            "Spending 18 hours a day isolated on social media without sleep or exercise"
+        ],
+        "correct": 2,
+        "explanation": "Hormonal changes and rapid brain development during adolescence naturally bring intense emotions, identity exploration, and mood swings. Channels like sports, music, art, adequate sleep, and honest conversations with parents, teachers, or counsellors build emotional resilience.",
+        "analogy": "When your brain is upgrading its emotional horsepower, healthy hobbies and trusted adults act as the steering wheel and shock absorbers!"
+    },
+    {
+        "id": 49,
+        "lesson": 6,
+        "topic": "Saying NO to Harmful Substances",
+        "quickDiagnostic": false,
+        "question": "If a peer or older acquaintance pressures an adolescent to try tobacco, gutkha, cigarettes, alcohol, or addictive drugs 'just once to look cool', what is the scientifically wise response and why?",
+        "options": [
+            "Try it once so friends don't tease you, as adolescents cannot get addicted",
+            "Addictive substances only affect people above 50 years of age",
+            "Tobacco and gutkha improve stamina and voice quality during puberty",
+            "Firmly and confidently say 'NO', because addictive substances damage the developing adolescent brain, lungs, and liver, and even trying them once can trap a person in lifelong addiction"
+        ],
+        "correct": 3,
+        "explanation": "The adolescent brain is still developing and is highly vulnerable to addiction. Substances like tobacco, gutkha, cigarettes, alcohol, and narcotics cause severe, permanent damage to the nervous system, lungs, heart, and oral health. Saying a firm 'NO' to negative peer pressure is true strength.",
+        "analogy": "Real confidence isn't copying a harmful dare—it's protecting your body and future by saying a fearless 'NO'!"
+    },
+    {
+        "id": 50,
+        "lesson": 6,
+        "topic": "Holistic Adolescent Health",
+        "quickDiagnostic": false,
+        "question": "Which combination of daily habits best supports the physical, mental, and social well-being of a Class 7 student going through adolescence?",
+        "options": [
+            "Skipping breakfast, replacing meals with ultra-processed junk food, and sleeping 4 hours a night",
+            "Balanced home-cooked meals (proteins, calcium, iron), daily outdoor physical exercise/yoga, 8–9 hours of sleep, personal hygiene, and respectful digital/social boundaries",
+            "Avoiding all outdoor games and sunshine to save energy",
+            "Taking unprescribed hormone pills to grow taller overnight"
+        ],
+        "correct": 1,
+        "explanation": "Adolescence is the foundation for lifelong health. A balanced diet fuels rapid bone and muscle growth, outdoor exercise and yoga strengthen the heart, bones, and mood, personal hygiene prevents infections, and adequate sleep lets growth hormones do their job!",
+        "analogy": "Think of your adolescent body as a high-performance sapling growing into a mighty tree: Nutrition is the fertile soil, Exercise is the sunlight, Hygiene is protection from pests, and Sleep is the rain!"
+    }
+];
 
         // ============================================================================
         // APPLICATION STATE & SYNTHESIZED AUDIO ENGINE (Web Audio API - Zero External Latency)
